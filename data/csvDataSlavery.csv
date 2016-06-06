@@ -1,0 +1,352 @@
+								
+ id	ANO	UF	EMPREGADOR	CNPJ/CPF	ESTABELECIMENTO	CNAE	DECISÃO ADMINISTRATIVA FINAL	TRAB. ENVOL.
+1	2014	PR	A B A Madeiras (atual: A B Andrade Escavações)	17.469.814/0001-72	Extração de Madeira - Nuc Localidade de Nova Esperança, Imbituva/PR	0210-1/07	20/02/15	2
+2	2013	PA	A M Indústria e Comércio de Carvão Ltda	10.690.880/0001-29	Fazenda Lacy - Rod. BR 222, Estrada Fazenda Lacy, zona rural, Rondon do Pará/PA	0210-1/08	27/03/15	2
+3	2013	PA	Abimael Rocha de Araújo	086.672.096-00	Fazenda Boa Sorte - Lote 64,  Estrada Vicinal Sereno, km 17, zona rural, Curionópolis/PA	0151-2/01	02/02/15	6
+4	2014	SP	Abrão A de Oliveira	59.741.744/0001-00	Carvoaria - Estrada André Franco Montoro, km 12, Atibainha Acima, Piracaia/SP	0210-1/08	29/07/15	6
+5	2012	AM	Acácio Cezário Carvalho	717.326.162-72	Embarcações Israel/Meu Garoto - Rio Solimões, próximo a Codajás/AM		10/04/14	4
+6	2013	TO	Adelmi Alencar Leão	243.605.461-49	Fazenda Baixa Verde - zona rural, Bandeirantes do Tocantins/TO		09/06/14	4
+7	2014	MG	Ademir Andrade de Oliveira	705.704.936-68	Fazenda Santa Helena/Chácara Vargem Bonita - zona rural, Ibiraci/MG	0134-2/00	11/02/15	11
+8	2012	PR	Ademir Geraldo	023.707.679-95	Fazenda Alegria - localidade de Padre Ponciano, Palmas/PR		09/06/14	3
+9	2013	PR	Ademir Hoinaski	338.251.149-53	Fazenda 2A - zona rural, Honório Serpa/PR		11/07/14	9
+10	2014	GO	Agenor Tibúrcio da Silva	375.056.961-49	Fazenda Bagre - Região do Marimbondo, zona rural, Caldas Novas/MG	0899-1/99	06/05/15	3
+11	2014	TO	Agilberton Ribeiro	430.498.181-15	Fazenda São Miguel/Bibiano - Rod. Paranã/São Valério, km 30, à esquerda, zona rural, Paranã/TO	0220-9/02	05/11/15	5
+12	2013	PR	Agroflorestal Justus S/A	80.221.799/0002-66	Fazenda Boa Vista - zona rural, Inácio Martins/PR	0139-3/02	11/12/14	17
+13	2008	PA	Agropecuária Boa Sorte S/A	04.880.829/0001-87	Fazenda Agropecuária Boa Sorte - Rod. BR 010, km 132, zona rural, Paragominas/PA		23/07/14	3
+14	2006	PA	Agropecuária Castanhais Ltda	07.512.638/0001-50	Fazenda Castanhais (Rio Fresco) - zona rural, Cumaru do Norte/PA	0151-2/02	19/02/15	47
+15	2007	PA	Agropecuária Rio Arataú S/A	05.078.415/0001-00	Fazenda Arataú - Rodovia Transamazônica, zona rural, Novo Repartimento/PA		23/07/14	14
+16	2012	GO	Agrotri Agropecuária Triângulo Ltda	12.050.989/0001-27	Fazenda Triângulo - Rod. GO 443, km 88, zona rural, Bonópolis/GO	0115-6/00	07/10/15	22
+17	2008	PA	Aguinaldo Rodrigues Caldeira	201.466.807-82	Fazenda Tangará - Rod. BR 010, km 135, ramal Nascente do Uraim, km 6, Paragominas/PA		11/08/14	13
+18	2014	SC	Airton Luiz Cobalchini	828.271.339-20	Viveiro de Mudas e Serraria - Rua  Pedro Damo, 87, Formosa, Campo Erê/SC	0210-1/03	07/05/15	1
+19	2009	PA	Alberto Cardoso Nepomuceno	062.703.445-49	Fazenda Jatobá  - Rod. PA 140, km 31, Ramal Santa Maria, zona rural, Tome Açu/PA	0151-2/01	06/05/15	5
+20	2014	TO	Alcir Elias de Oliveira	322.961.421-68	Fazenda LB - Estrada da Tranqueira a 10km de Alvorada/TO	0220-9/02	27/11/14	3
+21	2014	MA	Alexandre Vieira Lins	360.426.924-53	Fazena Sara - Rod. BR 135, km 122, Miranda do Norte/MA	0151-2/01	19/06/15	4
+22	2016	MS	Alfeu Nogueira Carbonaro	706.000.151-49	Fazenda Copacabana - zona rural, Guia Lopes da Laguna/MS	0151-2/01	23/03/16	7
+23	2011	BA	Alfio Gabriel Thomaselli Filho	090.545.708-06	Fazenda dos Dois Amores II (Fazenda Barra IV) e Fazenda Santo Antônio - Rod. BR 349, km 214, zona rural, Correntina/BA	0162-8/99	25/10/15	30
+24	2013	MA	Alonso Pereira Santos	094.143.806-63	Fazenda Baixa Verde - Estrada do Córrego do Surubiju, zona rural, Açailândia/MA		23/07/14	1
+25	2015	PA	Altemar Laignier de Souza	336.588.626-53	Fazenda Recanto Feliz - Rod. BR 230, km 40, Estrada do Travessão da 12, Brasil Novo/PA	0151-2/01	07/03/16	7
+26	2012	PA	Altino Coelho de Miranda	056.568.002-10	Fazenda do Dedeco - Rod. PA 150, km 70, Médio Mojú, Mojú/PA		14/07/14	10
+27	2013	PA	Altino Fernandes da Silva	049.207.321-04	Fazenda Lagoa da Serra - Localidade de Lagoa Vermelha, zona rural, São Félix do Xingu/PA		18/08/14	15
+28	2010	PA	Alzira Praxedes da Costa	588.992.351-04	Fazenda Jaborandi - Rod. PA 279, estrada da Canópolis, região do Xadá, zona rural, São Félix do Xingu/PA		23/07/14	4
+29	2014	AC	Amândio Celestino Cogo	120.299.399-00	Fazenda Perseverança - Ramal Jorge Kalume, km 16, Rio Branco/AC	0151-2/01	05/08/15	3
+30	2006	PA	Ana Maria da Silva	208.015.132-00	Fazenda Cajual - Rod. PA 150, km 143, vicinal Bom Jesus, km 18, Tailândia/PA		14/07/14	27
+31	2012	MG	André Guimarães Construções, Montagens e Serviços Ltda	03.316.710/0001-13	Obra no Hipermercado Atacadão - Av. Garcia Rodrigues Paes, 12.416, Juiz de Fora/MG		07/04/14	45
+32	2013	RS	André Zulian	01.550.504/0001-48	Mineração Zulian - Linha 30, n° 120, Comunidade Caravagio, Ipê/RS	2391-5/01	17/12/14	3
+33	2015	AM	Andrei Mikael Moreto	720.057.262-49	Fazenda Boi Não Berra (Sempre Verde) - Rod. BR 317, km 102, Boca do Acre/AM	0151-2/01	07/08/15	4
+34	2011	PA	Angelin Ório	150.731.739-53	Fazenda Campos Altos/Garimpo Casarão - Rod. PA 279, km 80, zona rural, Água Azul do Norte/PA	0724-3/01	05/11/15	13
+35	2012	TO	Anísio Aparecido da Silva	936.945.391-15	Fazenda Nossa Senhora da Aparecida - zona rural, Dueré/TO	0220-9/02	20/05/15	8
+36	2013	MA	Antônio Calixto dos Santos	004.089.055-49	Fazenda Grapia - Estrada de acesso à ferrovia de Carajás, linhão da Eletronorte, São Pedro da Água Branca/MA		21/08/14	1
+37	2010	PA	Antônio Cuzzuol Sobrinho	451.601.807-10	Fazenda Rio Branco Incobal - zona rural, Oeiras do Pará/PA	0151-2/01	11/12/14	32
+38	2012	PA	Antônio Francisco Oliveira Rosa	504.888.133-87	Fazenda Três Irmãos - Rod. PA 150, km 65, zona rural, Conceição do Araguaia/PA		14/10/14	2
+39	2012	PA	Antônio Luiz Sanches Felipe	948.566.642-04	Fazenda Leandra - vicinal Lontrão, km 26, Gleba Empenho, Pacajá/PA	0151-2/01	02/04/15	2
+40	2010	PA	Antônio Martins Ribeiro	135.215.191-04	Fazenda São Pedro - Rod. PA 287, zona rural, Conceição do Araguaia/PA	0151-2/01	19/02/15	7
+41	2009	PA	Antônio Maurício Faria	451.520.556-00	Sítio Mineiro - Rod. PA 150, vicinal do Parola, km 38, zona rural, Moju/PA		04/08/14	7
+42	2013	MA	Antônio Richart	369.216.619-20	Fazenda Morro Alto - Rod. BR 222, km 86, adentro 18 km, Vila Nova dos Martírios/MA	0115-6/00	15/10/15	6
+43	2015	AM	Antônio Sobrinho de Oliveira	044.822.712-68	Fazenda Paredão - Linha Pito Aceso, km 7, Distrito de Santo Antônio do Matupi, Manicoré/AM	0151-2/01	19/10/15	6
+44	2014	RR	Argilson Raimundo Pereira Martins	566.268.602-59	Fazenda Modelo (3 Corações) - Rodovia BR-210, vicinal 06, km 11, zona rural de Caroebe/PR		13/06/14	1
+45	2013	PR	Ari Gervande da Silva	588.308.209-20	Sítio Silva - Bairro Pinhalzinho, Zona Rural, Wenceslau Braz/RR		24/06/14	1
+46	2014	PR	Arlan Luiz Rodrigues Nunes	711.484.189-20	Fazenda de Pinus - Localidade de Pedregulhos, zona rural, Coronel Domingos Soares/PR	0210-1/07	09/02/15	3
+47	2012	PA	Arnaldo Borges de Freitas Neto	741.420.972-53	Retiro Boa Vista - Rod. PA 287, Colônia Volta Nova, zona rural, Conceição do Araguaia/PA	0119-9/01	09/03/16	6
+48	2014	SP	As Marias Comércio de Roupas Ltda	09.126.169/0001-67	Oficina de costura - Rua Rio Bonito, 755/761/767, Brás, São Paulo/SP	1412-6/01	28/09/15	14
+49	2010	TO	BioagroEngenharia Ambiental Ltda	03.484.340/0001-23	Zona rural do município de Porto Nacional/TO		28/05/14	7
+50	2012	PA	Bonardi da Amazônia Ltda	03.573.697/0001-88	Av. Otavio Onetta, setor industrial II, Novo Progresso/PA		23/07/14	9
+51	2013	SC	Brasmate Comércio do Mate Ltda	78.256.542/0001-17	Propriedade rural na localidade de Bley Pombas, interior de Santa Terezinha/SC		07/05/14	6
+52	2012	GO	Brookfield CentroOeste Empreendimentos Imobiliários SA	04.123.616/0001-00	Obra construção civil - Rua 05 c/ Rua 06, Qd C4, Setor Oeste, Goiânia/GO	4120-4/00	25/07/14	63
+53	2009	PA	Carlos Batista Dadalt	262.284.160-49	Fazenda Cinco Estrelas - km 03 do travessão da Vila do 10, zona rural, Placas/PA		23/07/14	5
+54	2015	MG	Carlos da Silveira Dumont	250.533.106-53	Fazenda da Várzea - zona rural, Serro/MG	0151-2/02	06/07/15	9
+55	2011	PA	Carlos Fernandes de Araújo	511.556.562-53	Carvoaria do Carlinhos - Rod. PA 150, Estrada Santo Antônio, km 21, Goianésia do Pará/PA	0220-9/02	14/12/15	11
+56	2015	PA	Carlos Fernandes de Araújo	511.556.562-53	Fazenda Cancela Preta - Rod. PA 150, Vicinal Estrada do Santo Antônio, 18 km, zona rural, Goianésia do Pará/PA	0151-2/01	07/12/15	6
+57	2013	PB	Carlos Kleber Ribeiro Barros	582.491.504-06	Pedreira Tamboril e Sitio Serra Verde - zona rural de Serra Branca/PB		02/06/14	21
+58	2013	MA	Carmel Construções Ltda	03.594.328/0001-71	Av. Cafeteira, 35, Vila Bom Viver, Raposa/MA		19/05/14	21
+59	2014	SP	Carvoaria Bom Sucesso Ltda	07.303.095/0001-61	Carvoaria - Bairro Bom Sucesso, n° 01, Piracaia/SP	4681-8/03	25/03/15	4
+60	2013	TO	Carvoaria S & A Ltda	07.280.652/0001-76	Fazenda Pedra Branca - zona rural de Natividade/TO		27/08/14	11
+61	2014	MG	CCM - Construtora Centro Minas Ltda	23.998.438/0001-06	Obra - Rua São Vicente, 155, Granja de Freitas, Belo Horizonte/MG	4120-4/00	07/04/15	40
+62	2014	PA	Celestino Alécio Fuchina Facco	131.358.210-72	Fazenda São Lucas - Rod. BR 010/PA 125, km 8, zona rural, Ulianópolis/PA	0115-6/00	16/10/15	14
+63	2014	PA	Célio Luiz Martins	327.884.792-04	Fazenda Ouro Verde - Gleba Cabeceira do Rio Tiborna, São Felix do Xingu/PA	0151-2/01	22/12/14	5
+64	2015	TO	Cerâmica Cermar Ltda	03.894.214/0001-47	Fazenda Paraíso - zona rural, Babaçulândia/TO	0220-9/01	07/03/16	2
+65	2013	PA	César Campos da Silva	040.006.092-20	Fazenda Campos de Olinda - zona rural de Novo Repartimento/PA		20/11/14	1
+66	2005	PA	Cezar Augusto de Oliveira	613.106.707-49	Fazenda Pedra Azul/Pantaneira (Cariocas I) - zona rural, Rio Maria/PA		14/07/14	22
+67	2012	MT	Clayton Grassioto	851.933.211-00	Gleba lote 313b - Rodovia MT-225, zona rural de Feliz Natal/MT		02/10/14	8
+68	2009	PA	Cleidimar Gama Rabelo	882.006.201-15	Fazenda Capanema - Vicinal da Colônia Paredão, Linha 06, km 18, zona rural, São Félix do Xingu/PA		07/08/14	4
+69	2014	SP	Confecções de Roupas Seiki Ltda	50.707.322/0001-43	Oficina de costura - Rua Miller, 306, Brás, São Paulo/SP	1412-6/01	25/03/15	17
+70	2014	RO	Construtora e Instaladora Rondonorte Ltda	06.042.126/0001-05	Obra do Espaço Alternativo de Porto Velho - Av. Lauro Sodré, Porto Velho/RO	4221-9/03	28/03/16	3
+71	2014	MG	Construtora Modelo Ltda	41.801.440/0001-25	Fazenda Jardim - São Sebastião do Bom Sucesso, Conceição do Mato Dentro/MG	4120-4/00	04/08/15	19
+72	2013	MG	Construtora Souza Guerra Bicas Ltda	10.224.454/0001-08	Obra da escola municipal - Praça Almirante Barroso, Chácara/MG	4120-4/00	29/01/15	5
+73	2013	GO	Convale Construções e Terraplanagem Ltda	05.634.058/0001-00	Obra - Quinta Avenida, n° 18, quadra 63, Setor Leste, Vila Nova, Goiânia/GO	4120-4/00	19/12/14	2
+74	2008	PA	Coracy Machado Kern	084.221.251-53	Fazenda São Judas Tadeu - zora rural de São Félix do Xingu/PA		23/07/14	5
+75	2012	PA	Cristalino Dantas do Rego	060.717.911-20	Fazenda Serra Grande - Estrada São Félix, zona rural, São Felix do Xingu/PA		14/10/14	1
+76	2007	PA	De Déa Indústria Comércio e Pecuária Ltda	14.069.363/0001-98	Fazenda São Sebastião - zona rural, Itupiranga/PA	0151-2/01	02/02/15	55
+77	2010	PA	Décio José Barroso Nunes	219.817.526-68	Fazenda Patrizia I - Gleba Rondon A, lotes 44 e 45, zona rural, Rondon do Pará/PA	0151-2/01	17/12/15	10
+78	2011	PA	Delfino Francisco Kehrnvalt	015.982.879-15	Fazenda Água Limpa - zona rural, Santa Maria das Barreiras/PA	0151-2/01	07/04/15	4
+79	2014	TO	Délio Fernandes Rodrigues	288.135.531-53	Fazenda Fernandes (Fazendinha) - zona rural, Angico/TO	0119-9/01	28/05/15	1
+80	2013	PA	Denys Farias de Brito	278.915.932-72	Sítio Sol - Gleba Pacajazinho, estrada do Chico Elias, zona rural, Pacajá/PA	0151-2/01	25/02/15	2
+81	2013	TO	Diamante Agrícola S/A	10.307.397/0002-01	Faz Diamante - Rod. TO 255, km 127, zona rural, Lagoa da Confusão/TO	0111-3/01	05/01/15	43
+82	2015	SP	Diego Leme Roncon	22.067.693/0001-72	Blocos Roncon - Estrada do Koyama, 545, Palmeiras, Suzano/SP	4744-0/99	29/02/16	4
+83	2015	MG	Dirceu José da Silva	078.202.916-72	Fazenda Canabrava - Rod. LMG 628, km 73, à direita, 36 km, Unaí/MG	0151-2/02	07/01/16	6
+84	2014	SP	Distribuidora de Carvão Bragança Ltda	01.005.744/0001-61	Fazenda Ribeirão dos Índios - zona rural, Piracaia/SP	0210-1/08	03/12/14	12
+85	2013	SP	Distribuidora Sulamericana Importação e Exportação Ltda	67.025.452/0001-07	Oficina de costura - Rua Cristina Tomás, 152, Bom Retiro, São Paulo/SP		08/10/14	2
+86	2014	TO	DMI Material Médico Hospitalar Ltda	37.109.097/0003-47	Fazenda Gameleira (CCA) - Rod. TO 387, km 50, mais 5 km, à esquerda, zona rural, Paranã/TO	0220-9/02	10/12/14	2
+87	2014	MA	Domingos Moura Macedo	176.076.203-20	Fazenda São Francisco/ Fazenda Bela Vista - Rod. BR 316, km 384, estrada Bacabal a Alto Alegre, zona rural, Bacabal/MA	0151-2/01	01/04/15	8
+88	2011	MG	Edílio Peron Ferrari	300.359.709-44	Fazendas Giramundo e Guariroba - Zona Rural do Municipio de Paracatu, MG	0119-9/05	16/03/15	5
+89	2011	PA	Edilson Máximo do Rego	305.038.842-00	Carvoaria do Pezinho - Estrada da Cikel, Vila Rouxinol, Zona Rural, Goianésia/PA		01/09/14	6
+90	2014	CE	Edmar de Paula da Costa	896.288.373-20	Sítio Lagoa do Mucambo - zona rural, Granja/CE	0220-9/99	23/01/15	11
+91	2014	MG	Ednei Oliveira Gomes	014.524.686-80	Fazenda São João Cachoeira da Extrema - zona rural, Coração de Jesus/MG	0220-9/02	28/01/15	10
+92	2012	PA	Edson Coelho dos Santos	490.882.111-91	Fazenda Flor da Mata - Estrada do Rio Preto, km 250, zona rural, São Felix do Xingu/PA	0151-2/01	17/12/14	3
+93	2010	PA	Edson de Souza Ribeiro	412.239.001-00	Fazenda Riacho Doce - Estrada vicinal Itupiranga/Vila Viana, km 84, zona rural, Itupiranga/PA	0151-2/01	12/11/14	31
+94	2014	RO	Edvaldo Estevão Menezes	725.187.076-20	Manejo Florestal - zona rural, Nova União/RO	0230-6/00	18/12/14	13
+95	2012	PA	Egton de Oliveira Pajaro Júnior	393.527.576-53	Fazenda Eldorado - Rod. BR 153, km 40, gleba Andorinhas, lote 39, zona rural, São Geraldo do Araguaia/PA		11/08/14	12
+96	2011	PA	Eletrojúnior Serviços e Materiais Elétricos Ltda	00.533.191/0001-57	Manutenção de rede elétrica - Rod. BR 230 (Transamazônica), km 250, zona rural, Pacajá/PA	4221-9/02	01/12/14	31
+97	2011	BA	Elton Nunes Garcia	555.158.190-04	Fazenda Garcia - Rod. BA 458, km 48, Riachão das Neves/BA	0161-0/03	15/10/15	2
+98	2012	PA	Elza Teresinha Vieira Lima	393.260.982-49	Fazenda Jerusalém - Estrada do Lago, km 25, Vicinal do Açaizal, km 20, Goianésia do Pará/PA		03/09/14	1
+99	2015	MG	Emídio Alves Madeira	028.661.376-04	Fazenda Santa Efigênia - zona rural, Bom Jesus da Penha/MG	0134-2/00	06/01/16	60
+100	2010	DF	Emival Ramos Caiado Filho	096.552.981-91	Fazenda Santa Mônica - zona rural, Natividade/TO		29/10/14	26
+101	2014	MG	Enesa Engenharia	48.785.828/0001-29	Obra de implantação de mina - Conceição do Mato Dentro/MG	4292-8/02	17/04/16	53
+102	2012	PA	Eraldo de Miranda Parente	054.431.803-04	Fazenda Vale do Axixá - Vicinal OP 03, km 15, Vila Santa Izabel, zona rural, Palestina do Pará/PA	0151-2/01	23/11/15	5
+103	2014	SC	Ervateira Cavalo Branco Ltda	09.457.742/0001-15	Extração de Erva Mate - Linha Boa Vista, Pinhalzinho/SC	1099-6/05	16/02/15	5
+104	2012	ES	Estevão Antônio Zanotti	473.787.196-68	Fazenda Alto Toma Vento - Várzea Grande, zona rural de Santa Teresa/ES		12/05/14	9
+105	2013	MA	Euclides Mariano da Silva	046.682.435-15	Fazenda Alto do Bonito - Estrada do Brejão, km 13, zona rural de São Fancisco do Brejão/MA		04/04/14	8
+106	2008	PA	Euclides Rocha de Oliveira	039.094.501-30	Fazenda Nova Esperança - Vila Central, zona rural, São Felix do Xingu/PA	0151-2/01	11/12/14	6
+107	2006	PA	Euler Guimarães	049.139.491-87	Fazenda Ouro Preto - zona rural, Marabá/PA	0151-2/01	08/05/15	11
+108	2008	BA	Euvaldo de Souza Pereira	14.263.180/0001-09	Fazenda Sertânia - Rod. BR 135, km 72, Riachão das Neves/BA	0220-9/02	25/10/15	38
+109	2014	TO	Fabiano Iamaguti Maeda e Outros	119.125.558-16	Fazenda Esperança - Rod. TO 280, km 180, zona rural, Natividade/TO	0151-2/01	25/03/16	6
+110	2014	PI	Fabiano Neiva Eulálio	022.446.083-87	Povoado Morrinhos, zona rural, Paquetá/PI	0220-9/99	29/07/15	61
+111	2014	PA	Fábio Santos de Oliveira	170.972.108-18	Fazenda Rancho Alegre - zona rural, Rondon do Pará/PA	0220-9/02	18/06/15	5
+112	2012	TO	Fergumar Ferro Gusa do Maranhão Ltda	00.560.621/0001-20	Fazenda Água Amarela - Rodovia Transamazônica, BR 230, km 174, Loteamento Catitu, zona rural de Araguatins/TO		17/04/14	56
+113	2011	MG	Fernando Rodrigues de Cristo	026.510.396-75	Fazenda Vargem Grande - Córrego Vargem Grande, zona rural, Simonésia/MG	0134-2/00	22/01/16	11
+114	2012	MA	Francisco Andrade da Silva	324.735.323-20	Fazenda Cocal II - Rodovia MA 200, km 25, povoado Nova Caxias, zona rural de Turiaçu/MA		07/08/14	1
+115	2014	AM	Francisco Filho da Costa Bezerra	016.681.862-33	Extração Piaçaba - Piaçabal do Igarapé Anhuri, Santa Isabel do Rio Negro/AM	0220-9/99	11/03/15	7
+116	2010	PA	Francisco Herbet Milfont Parente	382.399.141-87	Fazenda Rainha do Araguaia - zona rural, Brejo Grande do Araguaia/PA	0151-2/01	13/11/14	3
+117	2014	CE	Francisco Pereira de Sousa	093.632.973-49	Sítio Macaco - zona rural, Quixeré/CE	0151-2/02	14/05/15	2
+118	2012	PA	Francisco Roberto Oliveira de Carvalho	665.752.572-91	Sítio São Sebastião - Rodovia Transamazônica, BR 230, zona rural de Medicilândia/PA		07/08/14	9
+119	2012	AM	Francisco Santos de Macedo	821.749.972-15	Embarcação Princesa de Coari - Rio Solimões, zona rural de Codajás/AM		07/07/14	5
+120	2015	MG	Garra Engenharia e Planejamento Ltda	04.781.388/0001-66	Obra - Rua Gustavo Pena, 183, Horto, Belo Horizonte/MG	4120-4/00	09/10/15	5
+121	2011	PA	Geraldo Marques da Silva	617.350.002-72	Fazenda Monoporã - Vicinal de Serra Nova, zona rural de São Geraldo do Araguaia/PA		23/07/14	3
+122	2013	PE	Gesso Brasil Ltda	11.340.292/0001-28	Obra do Ed. Vale do São Francisco - Bairro Cohab Massangano, Petrolina/PE		28/04/14	1
+123	2008	PA	Gilberto Andrade	032.316.072-72	Fazenda Bom Sucesso - Rod. PA 256, km 40, margem direita, Paragominas/PA		23/08/15	35
+124	2008	PA	Gilberto Antônio Telli	004.515.179-20	Fazenda Ipama - Rodovia PA 279, km 65, sentido Xinguara, zona rural de Água Azul do Norte/PA		08/09/14	6
+125	2014	PA	Gilberto Pereira dos Santos	994.545.211-87	Chácara Santa Luzia - Estrada Santa Rita, km 11, zona rural, Parauapebas/PA	0729-4/04	29/06/15	2
+126	2011	MA	Gilson Freire de Santanna	101.988.221-20	Fazenda Santa Maria - Rod. BR 222, km 46, Açailândia/MA	0151-2/02	02/06/14	19
+127	2015	RS	Gilson Gomes Lisboa	008.455.820-20	Área de extração de madeira - Estrada do Pinheiro, a 12 km da EMEF Bibiano Batista, Passo da China, 5° Distrito, Cerro Partido, Encruzilhada do Sul/RS	0210-1/05	29/02/16	6
+128	2014	PA	Gilson Simões de Lima	161.035.211-49	Fazenda Serra Azul - Estrada de Babaçu, zona rural de Rio Maria/PA		14/10/14	7
+129	2014	RO	Giovani Luiz Minosso	408.509.272-34	Linha 17, s/n, Poste 185, zona rural, Canutama, Porto Velho/RO	0151-2/01	24/09/15	2
+130	2012	PA	Giovany Marcelino Pascoal	905.285.141-72	Glebas - Rod. BR 163, km 55, Vicinal Diamantino, e km 105, Vicinal Curuá, zona rural, Altamira/PA	0151-2/01	21/12/15	32
+131	2012	PA	Gondim Madeireira Ltda	06.243.982/0001-29	Área rural - Lote 6, zona rural de Prainha/PA		14/07/14	11
+132	2013	BA	Gráfico Empreendimentos Ltda	16.365.025/0001-29	Obra Residencial Caminho do Mar - Estrada da Cetrel, Barra do Jacuípe, Camaçari/BA	4120-4/00	02/10/15	8
+133	2013	MS	Gregório da Costa Soares	051.185.901-59	Fazenda São Sebastião, Região dos Paiaguas, zona rural de Corumbá/MS		25/04/14	3
+134	2014	MS	Guilherme Modesto Souto	996.621.408-91	Fazenda Raquel - Zona rural de Paranaíba/MS		09/06/14	2
+135	2014	SP	Guillermo Rivas Quispe	13.629.285/0001-76	Oficina de costura - Rua Elisete Cardoso, 115, Parque Residencial Souza Campo, Itaquaquecetuba/SP	1412-6/03	08/09/15	14
+136	2015	SP	Handbook Store Confecções Ltda	10.680.869/0008-54	Oficina de costura - Rua Cabocla, 11, Vila Paulistana. São Paulo/SP	1412-6/01	29/02/16	16
+137	2012	BA	Helmuth Rieger	175.673.949-87	Fazenda Flor da Esperança - Rod. BA 462, km 27, Sítio Grande, Povoado de Estiva, zona rural, São Desidério/BA	0115-6/00	24/09/15	9
+138	2013	GO	Hildebrando Alcântara	01.577.535/0001-92	Florasul - Rod. BR 060, entre Abadia de Goiás e Guapó/GO	0210-1/01	20/11/14	15
+139	2010	PA	Hildebrando Sisnando Pereira Lima	058.393.865-53	Fazenda Caeteté - zona rural, Água Azul do Norte/PA	0151-2/01	24/11/14	15
+140	2014	MA	Humberto Dantas dos Santos	663.398.205-49	Fazenda Garrafão - Antigo Povoado do Garrafão, zona rural, Bom Jardim/MA	0151-2/01	15/10/15	6
+141	2013	SP	Il Mare Confecções de Roupas Ltda	08.930.519/0001-80	Oficina de costura - Rua Silva Teles, 567, Braz, São Paulo/SP	1412-6/01	03/11/14	13
+142	2014	CE	Indústria de Cerâmica do Arraial Ltda	10.950.712/0001-25	Fazenda do Sr. Morales - Volta do João Mateus, zona rural, Morada Nova/CE	2342-7/02	17/02/16	5
+143	2006	PA	Indústria e Comércio e Exportação de Madeira Mato Grosso Ltda	04.290.363/0001-60	Fazenda Promissão - Rod. BR 163, km 950, Estrada de Jamanxim, km 60, Castelo de Sonhos, Altamira/PA	1610-2/01	16/04/15	8
+144	2011	PA	Iron Rodrigues da Silva	015.642.931-49	Fazenda Indiaporã - Rod. PA 279, zona rural, Ourilândia do Pará/PA	0151-2/01	12/11/14	4
+145	2013	CE	Ivan Batista Moreira	701.935.413-00	Fazenda Sabóia e Fazenda Cabosul - zona rural de Barroquinha/CE e Estrada CE 364, zona rural de Granja/CE		25/06/14	11
+146	2013	PA	Ivan Gonçalves da Silva	320.981.111-34	Fazenda Indiana - Rod. PA 279, Vicinal Castanheira, km 10, Tucumã/PA	0151-2/01	25/05/15	21
+147	2008	PA	Ivanete Lima da Silva	552.582.123-00	Fazenda Santa Maria IV - Brejo Grande do Araguaia/PA	0151-2/01	03/08/14	6
+148	2012	PA	Jabes Sousa de Oliveira	378.629.522-00	L.A. Madeiras - Rod. Transassurini, km 5, zona rural, Altamira/PA	1610-2/01	21/05/15	40
+149	2010	PA	Jamil Antônio Filho	364.634.427-04	Fazenda Capão da Onça - Rodovia PA 150, sentido Goianésia/Jacundá, KM 17, Goianésia do Pará/PA		23/07/14	4
+150	2013	PA	Jeanne Farias de Brito	116.482.362-00	Fazenda Escorpião - zona rural, Pacajá/PA	0151-2/01	15/12/14	2
+151	2013	PA	Jeomar Ferreira de Góis	163.130.202-78	Fazenda São Geraldo - Rod. Transamazônica, Travessão 90, Medicilândia/PA	0151-2/01	13/03/15	3
+152	2012	PA	João Alves Moreira	059.193.551-15	Fazenda Três Palmeiras - Vale do Iriri, zona rural de Santana do Araguaia/PA		03/09/14	10
+153	2010	MA	João Antônio Vilas Boas	092.519.601-00	Sítio - Assentamento Verona, BR 222, km 535, zona rural de Bom Jesus da Selva/MA		03/04/14	7
+154	2015	MG	João Batista Campos	413.952.206-20	Sítios Ebenézer e Maranata - Bairro Córrego do Rosário, Machado/MG	0134-2/00	25/12/15	14
+155	2014	MG	João Batista Rabelo Santos	822.472.186-87	Obra de Construção Civil - Rua Dr. Pedro Luiz, 237, Centro, Sete Lagoas/MG		07/04/14	12
+156	2008	PA	João Caldas de Oliviera	201.472.527-68	Fazenda União - Rod. PA 150, Jacundá, Goianésia do Pará/PA	0220-9/02	07/05/15	10
+157	2014	MG	João Carlos Buranelli	503.155.958-68	Fazenda Santa Bárbara - Chácara Vargem Bonita, zona rural, Ibiraci/MG	0134-2/00	27/10/14	13
+158	2015	PR	João Félix de Oliveira	617.464.369-72	Fazenda Coelho - Gleba 1-b, 1ª Seção, Região de Água Geanina, zona rural, Paranavaí/PR	0121-1/01	23/11/15	5
+159	2013	MT	João Fidelis Neto	173.834.639-00	Fazenda Boa Esperança - Linha da Pedreira, Flor da Serra, zona rural de Maputá/MT		29/10/14	15
+160	2012	PA	João Franco da Silveira Bueno	053.735.658-49	Fazenda Capelinha - Estrada do Cebolinha, 22 km do retiro do Girassol, zona rural de São Félix do Xingu/PA		23/07/14	6
+161	2014	GO	João Paulo Carvalho Silva	021.141.071-32	Fazenda Santa Fé - Rod. GO 164, km 775, Mundo Novo/GO	0151-2/01	24/04/15	7
+162	2010	PA	João Pereira da Silva	715.193.602-82	Garimpo - Rodovia PA 279. km 146, Vicinal Dalva II, km 02, Maracajá, Ourilândia do Norte/PA		08/10/14	4
+163	2009	PA	João Vicente Ferreira do Vale	262.357.812-53	Fazenda Manelão - zona rural de Anapu/PA		07/08/14	7
+164	2012	TO	Joaquim Almeida de Carvalho	038.953.988-02	Fazenda São Nicolau III - Loteamento Javaezinho, Distrito de Dorilândia, Sandolândia/TO	0220-9/02	13/12/15	12
+165	2013	MG	Joaquim Nunes da Rocha Filho	656.020.806-00	Fazenda Santa Felicidade - Rodovia Brasilândia/Santa Fé, zona rural de Brasilândia de Minas/MG		29/09/14	10
+166	2013	CE	Jobson Sousa Girão	006.858.383-40	Fazenda São Jorge - zona rural, Cipó dos Anjos, Ibaretama/CE	0220-9/01	09/02/15	7
+167	2012	MA	Joel Amélia de França	418.082.233-49	Madeireira do Joelzão - Povoado Centro do Pedro, quadra 80, zona rural, Maranhãozinho/MA	1616-2/01	22/12/14	13
+168	2014	TO	Jorge Alberto Annes Marinho	000.719.010-78	Fazenda Sentinelas do Pago - Rod. BR 262, km 16, ramal sem nome, km 22, zona rural, Peixe/TO	0151-2/01	29/07/15	3
+169	2011	PA	Jorge Nival Lopes Bispo	869.170.565-53	Fazenda Boa Vida - Rodovia Transamazônica, km 225, Vicinal do Sossego, zona rural de Novo Repartimento/PA		09/10/14	2
+170	2015	RS	José Adair Moraes	657.846.180-91	Fazenda Capão Ralo - Estrada para a Barragem do Salto, São Francisco de Paula/RS	0119-9/03	10/07/15	13
+171	2015	CE	José Alberto Rocha Pereira	832.105.393-91	Fazenda Morro Alto - zona rural, Groaíras/CE	0220-9/99	05/03/15	26
+172	2011	MG	José Álvares de Rezende	018.447.506-63	Fazenda Bocaina e Camisa - zona rural, Unaí/MG		04/04/14	4
+173	2014	MT	José Amarildo Rossetti	931.230.439-91	Sítio Pé da Serra - Linha 38, km 58, zona rural, Guarantã do Norte/MT	0151-2/01	22/10/15	1
+174	2005	PA	José Carlos Ramires	644.276.419-20	Extração de madeira na reserva Riozinho do Anfrísio - Rod. BR 163, km 1418, zona rural, Altamira/PA	0220-9/01	03/12/14	10
+175	2008	PA	José Carlos Rodrigues Paz	332.119.732-49	Carvoaria - Rodovia PA 140, km 03, setor industrial, Tomé-Açu/PA		04/09/14	3
+176	2012	PA	José da Mota Caetano	453.121.416-15	Fazenda São Benedito - Vicinal São Sebastião, km 56, zona rural de Itupiranga/PA		14/07/14	2
+177	2011	PA	José de Souza Veloso	161.181.543-68	Fazenda Vitória - Vicinal 04 da Reserva Parakanã, zona rural, Novo Repartimento/PA	0151-2/01	12/11/14	5
+178	2010	PA	José Elvécio Vilarino	091.128.471-00	Fazenda Bambu - Vila Cruzeiro do Sul, zona rural de Itupiranga/PA		07/08/14	1
+179	2014	CE	José Gilvan Ribeiro Oliveira	429.812.984-53	Barco Adonai G - Rua Praia de Búzios, 144, Parnamirin/CE	0311-6/01	05/12/14	6
+180	2013	PA	José Gotardo	619.332.602-20	Rod. BR 230, km 81, lote 4, gleba 26, zona rural, Medicilândia/PA	0119-9/09	02/07/15	6
+181	2014	TO	José Lisberto Ferreira	445.389.366-34	Fazenda Gameleira e Coqueiros - Rod. TO 496, Jaú do Tocantins/TO	0220-9/02	01/12/14	12
+182	2010	PA	José Luciano Franco de Rezende	182.898.606-25	Fazenda Santa Marta do Vale Verde - Estrada do Cristalino, km 180, zona rural de Cumaru do Norte/PA		14/10/14	7
+183	2012	SC	José Luiz Koeche	250.475.909-68	Fazenda Lageadinho - Rod. BR 116, km 264, zona rural, Capão Alto/SC		13/04/14	13
+184	2014	MG	José Manoel Soares Nunes	629.009.357-68	Fazenda Gondarim - Estrada São Bento s/, zona rural, Passa Quatro/MG	0133-4/09	17/12/14	3
+185	2014	CE	José Maria de Oliveira	033.704.703-06	Sítio Caiçara - zona rural, Viçosa do Ceará/CE	0220-9/99	05/08/15	6
+186	2009	PA	José Mariano Primo	070.643.061-15	Fazenda Cedro - Vicinal km 22, à esquerda, sentido Marabá/Altamira, a 32 km da Rod. Transamazônica, Novo Repartimento/PA	0151-2/03	07/09/15	2
+187	2010	PA	José Maurício Rodrigues Vieira	984.865.002-49	Carvoaria do Maurício - zona rural, Abel Figueiredo/PA	0220-9/02	02/04/15	7
+188	2008	PA	José Pedro de Almeida	004.526.616-68	Fazenda Fortaleza Guanabara - Rodovia PA153, km 17, Gleba Sorozinho, zona rural de São Geraldo do Araguaia/PA		23/07/14	5
+189	2015	PA	José Pereira de Carvalho	781.560.418-87	Fazenda Boa Esperança - Vicinal Águas Claras, lote 43, gleba Luciana, zona rural, Ourilândia do Norte/PA	0151-2/01	24/09/15	1
+190	2014	SP	José Rodriguez Carrasco	233.859.658-70	Oficina de costura - Rua Lopes Trovão, 126, Bom Retiro, São Paulo/SP	1412-6/01	06/04/15	8
+191	2010	PA	José Simões dos Santos	025.152.295-49	Fazenda Santa Maria - Rodovia PA 279, estrada da Canópolis, região do Xadá, zona rural de São Félix do Xingu/PA		07/08/14	1
+192	2014	AC	José Teles de Oliveira Filho	620.692.682-68	Fazenda Porto Alegre - Margem esquerda do Rio Muru, sentido montante, zona rural, Tarauacá/AC	0151-2/01	23/07/15	55
+193	2012	SC	José Volmi de Souza	443.308.479-49	Sítio Ricardo (Fazenda Goulart) - zona rural, Santa Cecília/SC		09/04/14	6
+194	2014	MA	José Wilson de Macedo	077.761.363-87	Fazenda Santa Luz - zona rural, Peitoró/MA	0151-2/01	13/02/15	12
+195	2014	MG	José Wilson Silvério da Silva	334.681.336-34	Fazenda Boa Vista - Cabeceira do Jacutinga, Distrito de Santa Luzia, Caratinga/MG	0134-2/00	11/12/14	20
+196	2013	SP	Juan Edwin Mendoza Machicado Confecçoes ME	13.911.155/0001-21	Oficina de costura - Av. Conceição, 2649, Jardim Japão, São Paulo/SP		26/05/14	1
+197	2013	BA	Juarez Lima Cardoso	093.752.365-87	Fazenda Sítio Novo - Distrito de Limeira, Povoado de Lajedinho, zona rural, Vitória da Conquista/BA	0134-2/00	14/03/16	26
+198	2014	PR	Juliano José Fagundes	053.616.429-08	Fazenda Boi Carrrilho - Localidade Bom Retiro, Zattarlândia, zona rural, Pinhão/PR	0210-1/08	27/11/14	2
+199	2010	PA	Jurandi Oliveira da Silva	602.152.322-91	Assentamento Oziel Pereira - zona rural, Piçarras/PA	0210-1/08	29/10/14	4
+200	2014	TO	K R Construtora Ltda	18.027.893/0001-24	Obras ao longo da rodovia TO 226 - Rod. TO 226, km 91, Araguaína/TO	4120-4/00	01/06/15	4
+201	2014	MG	Kasser Wadih Dib	043.551.808-91	Fazenda Bela Vista - zona rural, Ibiraci/MG	0134-2/00	27/10/14	33
+202	2014	GO	Kellen Cristina de Araújo	910.139.501-78	Fazenda Boa Vista do Ribeirão - Olaria da Selma, quinhão 2, zona rural, Guapó/GO	2342-7/02	19/06/15	8
+203	2014	AM	L C Morais Rocha Comercial	12.902.402/0001-60	Piaçabais no Rio Preto e Igarapés Buracão e Lago Preto - Comunidade Águas Vivas, Santa Isabel do Rio Negro/AM	0220-9/99	15/01/15	13
+204	2009	PA	L N do Nascimento Garcia Carvoaria	03.153.521/0002-58	Carvoaria da LN - Rod. BR 222, km 95, zona rural, Rondon do Para/PA	0220-9/02	12/11/14	12
+205	2010	PA	L N do Nascimento Garcia Carvoaria	03.153.521/0001-77	Carvoaria da LN - Rod. BR 222, km 125, Abel Figueiredo/PA	0210-1/08	03/09/14	11
+206	2013	RS	Laércio da Costa	002.183.710-47	Lavoura de morangos - Estrada para Vila Ituim, Capela Santa Olímpia, Porteirinha, Ipê/RS	0121-1/02	22/06/15	17
+207	2015	MT	Laércio Pedro Calgaro	535.761.520-91	Fazenda Alto Alegre - Rod. MT 020, zona rural, Paranatinga/MT	0210-1/01	04/11/15	2
+208	2010	PA	Lazir Soares de Castro	003.982.841-72	Fazenda Maguari - Rod. PA 279, vicinal da Igrejinha a 15 km, zona rural, São Félix do Xingu/PA	0151-2/01	24/11/14	3
+209	2011	PA	Leal Comércio e Transporte Ltda (atual: Ambrósimo Comércio e Transportes Ltda)	11.312.759/0001-26	Carvoaria do Ivaldo - Rod. A 151,  km 17, vicinal da Fazenda Silvo Florestal, km 2, Moju/PA	0220-9/02	02/04/15	6
+210	2012	PA	Leoni Lavagnoli	478.803.847-15	Fazenda Renascer (Gapó) - Rodovia Transamazônica, Vicinal São Luiz, km 38, zona rural de Pacajá/PA		23/07/14	48
+211	2012	SC	Leonir Soster	509.269.349-53	Área de extração de erva mate - Linha Sertão, zona rural de Concórdia/SC		11/06/14	7
+212	2014	SP	Lojas Renner S/A	92.754.738/0070-94	Oficina de costura - Rua Tucanos, 4, Jardim Labitary, São Paulo/SP	4781-4/00	20/09/15	37
+213	2012	PA	Lourinaldo Soares da Silva	168.023.902-30	Fazenda São Judas Tadeu - Rod. Rio Preto, km 24, vicinal Mumbuca, km 5, zona rural, Marabá/PA	0151-2/01	02/02/15	2
+214	2014	PR	Lourival Merett	03.682.726/0001-40	Fazenda Pingo d'ouro - Localidade de Descalvado, Tibagi/PR	0230-6/00	30/07/15	5
+215	2015	TO	Luciano Rosa do Nascimento	518.737.029-49	Fazenda Castelo - Rod. TO 080, km 33, à direita, 9 km, Loteamento Santa Luzia, Porto Nacional/TO	0220-9/02	13/11/15	9
+216	2012	PA	Luiz Batista Mariano	799.507.521-91	Fazenda Alô Brasil - Rod. PA Frutão, Gleba Buritirana II, zona rural, Marabá/PA	0151-2/01	17/04/15	8
+217	2006	PA	Luiz Evaldo Glória	399.995.722-00	Fazenda Bela Vista - Rod. PA 256, km 93, zona rural, Tomé Açu/PA		28/11/14	4
+218	2014	SP	Luiz G A Pinheiro	07.385.791/0001-64	Carvoaria Luiz G A Pinheiro - Estrada André Franco Montoro, km 18, Atibainha Baixa, Piracaia/SP	0220-9/02	18/05/15	10
+219	2013	SP	M P Amorim EIRELI	10.766.351/0001-61	Fenomenal Internacional - Rua Bresser, nº 695/703, Brás, São Paulo/SP		02/10/14	9
+220	2013	SP	M5 Indústria e Comércio Ltda	53.604.708/0011-90	Oficina de costura - Rua Cristina Tomás, 152, Bom Retiro, São Paulo/SP	1412-6/01	20/09/15	2
+221	2014	SP	M5 Indústria e Comércio Ltda	53.604.708/0011-90	Oficina de costura - Rua Cardeiro, 51, Vila Santa Inês, São Paulo/SP	1412-6/01	20/09/15	6
+222	2012	PA	Madeireira Iller Ltda	09.208.556/0001-42	Madeireira - Estrada do Curuá/Una. km 120, Ramal Bandeira, zona rural de Santarém/PA		13/08/14	31
+223	2013	PA	Madeireira Paricá Ltda	03.974.831/0001-52	Madeireira Parica - estrada Fazenda Lacy, zona rural, Rondon do Pará/PA	1610-2/01	11/05/15	7
+224	2010	PA	Maísa Moju Agroindustrial Ltda	04.138.913/0001-20	Fazenda Maísa - Rod. PA 150, km 122, Estrada do Projeto Seringa, km 42, zona rural de Moju/PA		11/08/14	11
+225	2015	SC	Maison May	050.097.999-52	Lavoura de cebolas - Estrada Geral Antas Gordas, Vidal Ramos/SC	0119-9/04	30/10/15	5
+226	2011	PA	Manoel Alves de Sousa	074.703.043-04	Fazenda Maria de Jesus - Estrada do Rio Preto, km 220, Estrada da Vicinal de Valência, zona rural, Marabá/PA	0151-2/01	29/10/14	6
+227	2014	RS	Marcelo Ferreira Horn	333.493.980-49	Fazenda Formosa - Localidade de João Rodrigues, zona rural, Rio Pardo/RS	0151-2/01	06/05/15	1
+228	2013	MG	Marcelo Oliveira	793.300.456-34	Fazenda Colégio - Povoado Sapé, zona rural, Brumadinho/MG	0151-2/02	13/12/15	1
+229	2011	MA	Marcelo Testa Baldochi	109.067.228-45	Fazenda Vale do Ipanema - zona rural, Bom Jardim/MA	0151-2/01	23/03/15	4
+230	2013	TO	Márcio Roberto Guimarães	288.003.381-00	Fazenda Boa Vista - Rod. Natividade/São Valério, km 3,5, à direita 12 km, zona rural de Natividade/TO		05/06/14	10
+231	2013	MG	Marco Projetos e Construções Ltda	89.530.174/0001-70	Canteiro de obras - Rua João Ângelo Schiavinato, 2085, bairro Santa Mônica, Uberlândia/MG		14/05/14	21
+232	2013	BA	Marcondes Antônio Tavares de Farias	224.068.324-49	Fazenda MF1 - Rod. BR 242, km 830, à direita no sentido Luís Eduardo Magalhães, 16km, Barreiras/BA	0155-5/01	05/11/15	33
+233	2014	GO	Marcos Onofre de Camargo	556.926.801-49	Fazenda Boa Vista do Ribeirão - Olaria do Marreco, atrás da Saneago Estação de Tratamento de Esgoto, zona rural, Guapó/GO	2342-7/02	10/06/15	13
+234	2013	RS	Marcos Suélio Dantas	362.699.132-68	Rua Primo Postali, 190/06, Esplanada, Caxias do Sul/RS	4762-8/00	20/03/15	6
+235	2014	PA	Maria do Socorro Plácido Torres	411.577.882-20	Fazenda Próspera - Rod. PA Gameleira, s/n, zona rural, Marabá/PA	0151-2/01	21/12/15	10
+236	2014	GO	Maria Dolores Machado	883.713.101-10	Fazenda Paraíso - Rod. BR 060, km 435, 3 km à direita, Rio Verde/GO	0210-1/01	04/05/15	7
+237	2011	PA	Maria Lúcia Silveira Coelho Denipote	484.155.026-72	Fazenda Santa Lúcia - Vicinal Santa Lúcia, km 20, zona rural, Curionópolis/PA	0151-2/01	15/03/16	19
+238	2008	PA	Maria Soares de Freitas	437.743.502-72	Fazenda Bom Sossego - Travessão do zero, Rod. Transamazônica, km 150, Uruará/PA	0151-2/01	27/11/14	4
+239	2015	MS	Maria Tereza Junqueira de Carvalho Filha	858.088.571-04	Fazenda Santa Tereza e Fazenda Raio de Luar - zonas rurais de Bonito e Anastácio/MS	0151-2/01	15/02/16	9
+240	2010	MG	Marino Stefani Colpo	718.455.691-72	Fazendas Gado Bravo e São Miguel - Rodovia MG 400, km 03, zona rural, Unaí/MG		09/04/14	54
+241	2005	PA	Mário Tavares de Lira	016.522.142-91	Fazenda Boa Vista  - Rod. PA 153, km 22, zona rural, São Domingos do Araguaia/PA	0151-2/01	01/09/14	11
+242	2013	PA	Maurivan da Silva Nascimento	559.280.482-20	Fazenda do Sr. Jeguinho - vicinal do Ivan, km 8, Assentamento Montes Belos, zona rural, Pacajá/PA	0151-2/01	02/04/15	2
+243	2010	PA	Mauro Zanette	340.184.171-87	Gleba São Benedito II, próximo ao Rio Cururu, Jacareacanga/PA	0151-2/01	23/07/14	3
+244	2010	PA	Menegildo Rodrigues de Moura	052.736.175-53	Fazenda Paraíso - Rod. PA 279, região do Xadá, zona rural, São Félix do Xingú/PA		03/09/14	4
+245	2013	RS	MGM Meyer Giometti Engenharia Mecânica Ltda	51.047.173/0001-04	Canteiro de obra - Rua Neri Bossardi, 675, Industrial, Vacaria/RS	2513-6/00	15/12/14	12
+246	2010	PA	Miguel Almeida de Macedo	054.182.085-00	Fazenda Boa Esperança - Vicinal Santa Lúcia, zona rural de Rondon do Pará/PA		23/07/14	6
+247	2014	MA	Miguel Almeida Murta	494.352.306-44	Fazenda Boa Esperança - Gleba Bambu, Povoado Córrego Novo, zona rural, Açailândia/MA	0151-2/01	19/01/15	5
+248	2015	MA	Miguel de Souza Rezende	013.448.971-34	Fazenda Zonga - Rio dos Bois, Rod. BR 222, km 535, zona rural, Bom Jardim/MA	0151-2/01	08/06/15	1
+249	2010	PA	Miguel Lourenço Lima Neto	794.092.612-87	Garimpo Maracajá - Rod. PA 279, km 146, Vicinal Dalva II, km 02, Assentamento Maria Preta, zona rural de Ourilândia do Norte/PA		23/07/14	4
+250	2014	MG	Milplan - Engenharia Construções e Montagens Ltda	17.521.519/0001-18	Obra de implantação de mina - Conceição do Mato Dentro/MG	4292-8/02	05/08/15	46
+251	2012	RJ	Mineração Cachoeira Alegre Ltda	05.140.077/0001-80	Área de extração - Estrada Pádua a Paraoquena, km 4, 1° Distrito, Santo Antônio de Pádua/RJ	0810-0/02	14/11/14	7
+252	2014	TO	Mineração Santa Luzia Ltda	19.791.590/0001-46	Fazenda Santa Luzia - Santa Rosa do Tocantins, km 10 à esquerda, zona rural, Chapada de Natividade/TO	0723-5/01	18/03/15	14
+253	2015	TO	Mineradora Vale do Paranã Ltda	19.320.400/0001-02	Garimpo Cara Pelada - Morro do Albino, zona rural, Paranã/TO	0724-3/01	14/08/15	2
+254	2013	PA	Minerkhon Extração, Comércio e Transporte Ltda	14.008.986/0001-50	Fazenda Prainha - VC8, Vila Betel, Lote 17, zona rural, Eldorado dos Carajás/PA	0810-0/06	18/06/15	2
+255	2014	AC	Miragina SA Indústria e Comércio	04.063.681/0001-98	Fazenda Miragina I - Seringal Novo Areal, zona rural, Serra Madureira/AC	1092-9/00	15/09/15	1
+256	2012	RO	Míriam de Freitas	833.508.538-20	Fazenda Araputanga - Lote 32, Linha 125, Gleba Corumbiara, Chupinguaia/RO	0210-1/04	19/02/15	29
+257	2014	GO	Moreira Osvando	044.743.171-49	Fazenda Moreira - Rod. GO 164, km 775, zona rural, Mundo Novo/GO	0151-2/01	19/02/15	10
+258	Empregador excluído por decisão do Tribunal de Justiça do Estado da Bahia							
+259	2011	PA	Mozar de Faria	090.631.291-49	Fazenda Beira Rio - Estrada Raimundo Eduardo, km 59, Lugarejo Parauna, São Geraldo do Araguaia/PA		03/09/14	5
+260	2013	MG	MPR Empreendimentos Ltda	04.531.347/0001-11	Fazenda Continente - Gleba B, zona rural, Coronel Pacheco/MG	0210-1/04	20/05/15	11
+261	2013	MG	MRV Engenharia e Participações S/A	08.343.492/0013-63	Obra Fontana di Italia - Rua Joaquim José, 785, Fonte Grande, Contagem/MG	4110-7/00	05/03/15	6
+262	2014	MG	Murilo Rezende Faria	031.364.181-15	Fazenda Alegre - zona rural, Pintópolis/MG	0220-9/02	17/04/15	4
+263	2015	PA	Naelci Vieira dos Santos	706.696.782-87	Sítio São José - Região da Chapada Vermelha, zona rural, Floresta do Araguaia/PA	0119-9/01	08/02/16	6
+264	2011	PA	Nelson Alves Rocha	210.518.362-04	Carvoaria do Sheran - BR 222, km 12, Vicinal do Gavião, zona rural de Abel Figueiredo/PA		23/07/14	2
+265	2012	BA	Nelson Astor Pooter	059.957.109-82	Fazenda Novos Tempos I - Rod. BA 462, km 27, Povoado da Estiva, São Desidério/BA	0151-2/01	14/03/16	10
+266	2014	MA	Nilo Miranda Bezerra	001.964.363-20	Fazenda Palmeirinha/ Pau de Terra - Estrada de Carolina a Balsas, 5 km, à esquerda, 18 km, zona rural, Carolina/MA	0151-2/03	14/05/15	3
+267	2015	MG	Nova Santa Rita Empreendimentos Imobiliários SPE Ltda	16.577.605/0001-80	Fazenda do Retiro - Estrada Mendes a São Sebastião das Águas Claras, Nova Lima/MG	6462-0/00	29/07/15	1
+268	2012	PA	O S Indústria e Comércio de Conservas Ltda	12.470.271/0001-90	Fazenda Nelore - Vicinal São João Batista, zona rural de Itupiranga/PA		19/09/14	6
+269	2013	MG	OAS S. A.	14.811.848/0011-87	Obra de Construção Civil - Av. dos Andradas, 3000, Santa Efigênia, Belo Horizonte/MG 		14/04/14	124
+270	2012	PA	Oliveira Rodrigues dos Reis	009.315.861-00	Fazenda Rio Novo - Rod. PA 275, km 47, zona rural, Curionópolis/PA	0151-2/01	11/12/14	2
+271	2012	PA	Onofre Barboza Gomes	043.946.312-20	Fazenda 2 Corações - Estrada do Rio Preto, km 3, zona rural, Marabá/PA		11/08/14	1
+272	2014	AM	Oscar da Costa Gadelha	019.860.662-15	Castanhal Nova Glória - Margens do Rio Tumiã, zona rural, Lábrea/AM	0220-9/03	29/12/14	21
+273	2015	RS	Otávio Ricardo Schmidt Ibargoyen Paiva	435.871.190-15	Estância Itapevi - Vila Itapevi, zona rural, Cacequi/RS	0210-1/07	29/02/16	6
+274	2008	PA	Otávio Zapelini Filho	052.728.228-62	Fazenda Zapelini II - Rod. PA 140, km 200, ramal Areial, zona rural de Concórdia/PA		08/10/14	15
+275	2013	PR	P.O.S. Administração e Participação de Bens Ltda	09.195.011/0001-49	Fazenda Ribeirão - Rod. BR 116 km 23, Jaguastirica, Campina Grande do Sul/PR	0210-3/03	09/02/15	14
+276	2013	MA	Palmireno dos Santos Silva	222.885.895-15	Fazenda Victória - Estrada do Rio dos Bois, zona rural, Bom Jardim/MA	0151-2/01	11/02/16	11
+277	2013	MG	Paulo Alves de Lima	192.094.526-15	Fazenda Real Paraíso - zona rural, Campanha/MG	0134-2/00	12/10/14	1
+278	2013	PA	Paulo de Sousa da Cruz	615.185.142-00	Fazenda Boi Preto/Fazenda Navarro - Rod. PA 449, km 52, atrás da Vila 8, zona rural, Conceição do Araguaia/PA	0151-2/01	12/03/15	5
+279	2015	TO	Paulo Lucas da Costa	138.892.066-20	Fazenda São Lucas - Rod. TO 282, km 47, entrada à direita, mais 10 km, Muricilândia/TO	0151-2/01	26/06/15	2
+280	2013	BA	Paulo Silva	099.653.785-68	Fazenda Sândalus - Localidad de Lagoa de Melquíades, Distrito de Inhobim, zona rural, Vitória da Conquista/BA	0134-2/00	02/11/15	24
+281	2013	TO	Paulo Vicente da Mota	232.488.231-00	Fazenda Estação - Zona rural de Colméia/TO		07/08/14	16
+282	2015	MT	Pedro Gomes Filho	292.647.788-02	Fazenda União III - Rod. MT 130, sentido Santiago do Norte, 50 km, à esquerda 20 km, à direita 80 km, Paranatinga/MT	0151-2/01	25/03/16	1
+283	2014	MG	Pedro Ribeiro da Silva Filho	053.529.736-03	Fazenda Mangues - zona rural, estrada de terra entre Pintópolis/Urucais, 25 km, Pintópolis/MG	0220-9/02	04/05/15	4
+284	2008	PA	Perfil Agroindústria Cacaueira S/A	02.287.121/0001-91	Rod. BR 230, km 240, vicinal norte, km 10, Placas/PA	0135-1/00	13/04/15	88
+285	2014	MS	Prestadora de Serviços e Comércio de Madeiras Benites	04.680.548/0001-80	Fazenda Santo Antônio - Zona rural de Dourados/MS		05/09/14	4
+286	2013	PR	R J Erva Mate Ltda	14.681.063/0001-65	Ervateira Berté - Zona rural de Laranjal/PR		14/07/14	6
+287	2015	CE	Raimundo Gregório Xavier	845.411.563-34	Área de extração de palha de carnaúba - Cajueiro dos Coutinhos, Distrito de Adrianópolis, Granja/CE	0220-9/99	03/03/16	11
+288	2014	MA	Raimundo Nonato Alves Pereira	100.870.363-04	Fazenda Santa Cruz - zona rural, Santo Antônio do Lopes/MA	0151-2/01	26/03/15	3
+289	2011	MA	Raimundo Nonato Oliveira Lima	146.513.433-68	Fazenda São Pedro - Rod. BR 316, Povoado São João das Neves, 11 km, zona rural, Peritoró/MA	0151-2/01	28/03/16	3
+290	2011	PA	Raimundo Nunes Ferreira	543.128.923-34	Fazenda Alto Bonito - Rodovia Transamazônica, vicinal 225, nº 48, Novo Repartimento/PA	0151-2/01	24/11/14	6
+291	2015	SC	Renaldo de Oliveira Pinto	032.195.409-29	Fazenda Paraíso - Localidade de Rio Crioulas, Urubici/SC	0133-4/07	07/12/15	19
+292	2014	PA	Renato Resende Paulinelli	252.333.781-91	Fazenda Canto de Pedra - Rod. BR 155, 5 km de Rio Maria, sentido Redenção,  Rio Maria/PA	0151-2/01	20/04/15	5
+293	2014	TO	Rita Cássia Dias	367.534.671-49	Fazenda Bom Sucesso - zona rural, Ponte Alta do Bom Jesus/TO	0220-9/02	03/08/15	14
+294	2011	PA	Roberto David de Souza	329.057.423-72	Carvoaria do Beto - Rod. BR 222, estrada do Casca Seca, loteamento Alto Bonito, zona rural de Abel Figueiredo/PA		14/07/14	3
+295	2014	TO	Roberto Manoel Ferreira	529.201.786-87	Fazenda São José - Rod. TO 496, km 22, à esquerda mais 7 km, Jaú do Tocantins/TO	0220-9/02	01/12/14	5
+296	2011	PA	Roberto Rodrigues Ferreira	459.560.906-00	Fazenda Nova Aliança - Bela Vista, Floresta do Araguaia/PA	0133-4/99	08/09/14	29
+297	2013	PA	Robson Alves de Carvalho	634.328.111-87	Fazenda Sul Carajás - Estrada do Itacaiunas, km 32, zona rural de Marabá/PA		18/08/14	6
+298	2015	PA	Rodrigo Melo de Sousa	645.409.602-53	Fazenda Cancela Preta - Rod. PA 150, vicinal Estrada do Santo Antônio, 18 km, zona rural, Goianésia do Pará/PA	0151-2/01	10/08/15	1
+299	2008	PE	Romildo Brandão	043.498.224-53	Engenho Poço - zona rural, Palmares/PE	0113-0/00	28/04/14	59
+300	2013	PA	Ronaldo Araújo Costa	292.942.742-68	Fazenda São Gabriel - Rod. PA 150, km 35, s/n, Ramal do Divino, Tailândia/PA	0220-9/01	20/11/15	10
+301	2014	SC	Ronaldo Dalmolin Martinello	007.757.729-92	Área de cultivo de batatas - Encruzilhada da Rod. Governador Jorge Lacerda com Rod. SC 108	0119-9/03	07/10/15	14
+302	2014	TO	Ronaldo Peixoto Valadão	093.778.911-91	Fazenda Serra Azul - Rod. TO 226, km 80, Loteamento Rio Lontra, zona rural, Araguaína/TO	0151-2/01	13/04/16	10
+303	2014	MG	Ruby Bar Ltda	19.458.119/0001-30	Rua Curitiba, 319, 2º andar, Centro, Belo Horizonte/MG	5611-2/01	30/01/15	1
+304	2010	PA	Ruy Pithon Brito Júnior	209.076.805-34	Fazenda Liberdade - Rod. PA 150, km 3, Vicinal Santo Antônio, zona rural, Goianésia do Pará/PA	0151-2/03	11/06/15	8
+305	2010	PA	S Ladeira Carvoaria Ltda	08.575.179/0001-17	Carvoaria Mata Verde - Rod. BR 230, km 216, s/n, Vila Maracajá, Novo Repartimento/PA	0220-9/02	02/02/15	4
+306	2012	TO	Salvador Leandro do Nascimento	091.901.711-87	Fazenda Boa Sorte - Loteamento Três Barreiras, distrito de Dorilândia, Sandolândia/TO		03/08/14	8
+307	2013	SP	Salvatta Engenharia Ltda	23.427.248/0001-39	Rua Barão do Rio Branco, 426, Santo Amaro, São Paulo/SP	4120-4/00	06/10/14	55
+308	2013	PA	Samuel Luiz de Oliveira	050.045.351-91	Fazenda Mundo Novo - Estrada do Araguaxim, km 35, zona rural de Redenção/PA		18/08/14	2
+309	2014	MG	Sebastião José Gomes	477.229.676-04	Olaria do Tião Cobra - Estrada de ligação Conceição das Alagoas/Campo Florido, Conceição das Alagoas/MG	2342-7/02	10/06/15	6
+310	2014	MA	Sebastião Lourenço Rodrigues	149.527.343-15	Fazenda Tamataí - Povoado Brejo do Piauí, zona rural, Santa Luiza/MA	0151-2/01	17/04/15	7
+311	2010	PA	Sérgio Augusto de Almeida Braga	156.788.816-04	Fazenda União - Rod. PA 279, zona rural, Água Azul do Norte/PA	0151-2/01	03/09/14	32
+312	2012	PA	Sidepar - Siderúrgica do Pará S/A	06.149.423/0001-54	Carvoaria do Luiz Viana - Rod. Transamazônica, km 212, Vila Maracajá, Novo Repartimento/PA	2411-3/00	23/11/15	12
+313	2006	PA	Siderúrgica do Maranhão S/A (atual: Guarany Siderúrgica e Mineração S/A)	10.426.518/0001-45	Fazenda Turmalina - Rod. BR 222, km 56, Estrada Berbel, km 43, zona rural, Dom Eliseu/PA	0220-9/02	28/09/14	13
+314	2013	MT	Sisan Engenharia Ltda	04.751.205/0001-60	Canteiro de obras do Residencial Santa Terezinha II - Bairro Itapajés, Cuiabá/MT		02/05/14	21
+315	2013	PA	Sônia Aparecida Segantina Alcazas	313.401.721-00	Fazenda Alvorada - Zona rural de Novo Repartimento/PA		04/08/14	2
+316	2013	PA	Sônia Mara Catuxo Barbosa	130.843.992-04	Fazenda Catuxo - Colônia Paulo Fonteles, Estrada Santa Cruz, km 41, zona rural, Parauapebas/PA	0151-2/01	29/10/14	6
+317	2009	PA	Sourcetech Química Ltda	71.717.938/0001-75	Área de extração vegetal - Zona rural de São Félix do Xingu/PA		23/07/14	46
+318	2013	MT	Staka Construtora Ltda	10.552.995/0001-57	"Canteiro de obras da ""Trincheira Santa Rosa"" - Rua 19, nº 231, bairro Ribeirão da Ponte, Cuiabá/MT"		14/05/14	11
+319	2010	PA	Sued da Silva Santos	328.723.483-87	Serraria Madeçai - Vila Maracajá, Estrada do Tuerê, km 52, Vila Novo Horizonte, Novo Repartimento/PA	1610-2/01	02/02/15	8
+320	2013	GO	Terra Nova Empreendimentos Agropecuários Ltda	09.654.536/0001-03	Fazenda Dois Rios - Rod. BR 050, km 207, à direita, 9km, à direita, 3km, zona rural, Campo Alegre de Goiás/GO	0139-3/06	16/06/14	7
+321	2012	MT	Terra Viva Carvão e Reflorestamento Ltda	02.584.988/0002-90	Fazenda Alan - Rod. MT 338, km 182, Vila Simioni, Itanhangá/MT	0220-9/02	02/02/15	7
+322	2008	AM	Transportadora Rocha Ltda	05.739.978/0001-93	Fazenda Novo Horizonte - Margem esquerda do Igarapé do Xureca, Distrito do Rio Ariaú, zona rural, Bareirinha/AM	0220-9/01	27/11/14	19
+323	2013	MG	Tratenge Engenharia Ltda	06.098.460/0001-80	Obra de construção do Hospital Universitário da UFJF - Av. Eugênio do Nascimento, Dom Bosco, Juiz de Fora/MG	4120-4/00	15/03/15	28
+324	2014	SP	Unique Chic Confecções Ltda	08.622.108/0001-28	Oficina de costura SNP Morocco - Rua Augusto César, 97, São Paulo/SP	1412-6/01	23/03/15	19
+325	2012	AL	Usina Taquara Limitada	12.217.246/0001-07	Fazenda Mônica - Zona rural de Colônia Leopoldina/AL		19/09/14	32
+326	2009	PA	V L de Sá Pecuária	08.716.038/0001-77	Fazenda Tucunaré - Rod. BR 230, km 256, Vicinal São Vicente, zona rural de Pacajá/PA		23/07/14	4
+327	2013	PA	Valdelice Farias de Brito	206.821.312-53	Sítio Mansão Piabanha - Estrada do Chico Elias BR 230 (Transamazônica), km 18, zona rural, Pacajá/PA	0151-2/01	29/10/14	2
+328	2015	CE	Valdemar da Silva Almeida	600.874.483-78	Fazenda Cajazeiras - A 7 km do bairro Sítios Novos, zona rural, Pentecoste/CE	0133-4/05	29/02/16	9
+329	2014	PA	Valtênio José de Freitas	212.710.701-20	Fazenda Mutuca - Vicinal Casulo, km 5, ao lado da PA 279, Ourilândia / PA	0151-2/01	01/05/15	3
+330	2010	PA	Valto Antônio de Carvalho	041.785.641-53	Fazenda Betel - Estrada Vicinal do Calumbi, zona rural, São Félix do Xingu/PA	0151-2/03	12/11/14	5
+331	2014	RS	Vanderlei Meurer	456.209.979-87	Área de cultivo de tabaco - Linha Antunes Braga, Grão Pará/SC	0114-8/00	10/12/15	5
+332	2012	PA	Vanderson Ayres da Silva	650.452.202-25	Fazenda Serra Dourada - Estrada da Cutia, vicinal da estrada Primavera, a 22 km da Vila Central, zona rural, São Felix do Xingu/PA	0151-2/01	02/09/15	11
+333	2010	PA	Vicente de Paula Freitas	158.184.701-72	Fazenda Rancho Alegre - Proximidade da Estrada de Vila de Campo Alegre, zona rural, São Félix do Xingu/PA	0151-2/01	11/12/14	6
+334	2011	PA	Vicente Garambone Filho	215.246.107-04	Fazenda São Vicente - Rod. PA 287, km 22, zona rural de Conceição do Araguaia/PA		18/08/14	11
+335	2013	PA	Vicente Gregório Monteiro	365.369.206-78	Fazenda Serra Verde - Vila Quatro Bocas, estrada da Vila Seca a Pedrolândia, km 10, zona rural, Itupiranga/PA	0151-2/01	02/09/15	1
+336	2012	TO	Viena Siderúrgica S/A	07.609.993/0001-42	Fazenda Vale do Canoa III e Fazenda Retiro - Rodovia TO-135, km 24,5, Gleba Maior II, zona rural de Darcinópolis/TO		15/04/14	89
+337	2010	PA	Vilson João Schmidt	347.085.109-34	Garimpo Maracajá - Rodovia PA 279, km 146, Vicinal Dalva II, localidade de Maracajá, Ourilândia do Norte/PA		23/07/14	3
+338	2013	SP	Vixsteel Montagem Ltda	13.354.569/0001-05	Obra de construção do terminal do aeroporto de Guarulhos - Guarulhos/SP		29/05/14	7
+339	2005	PA	Walderez Fernando Resende Barbosa	039.609.516-04	Fazenda Santa Maria - Rod. OP3, zona rural, Brejo Grande do Araguaia/PA		14/10/14	79
+340	2010	PA	Waldez Pires de Souza	061.969.266-91	Fazenda Onofre Pires - Rod. PA 279, km 70, zona rural de São Félix do Xingu/PA		23/07/14	2
+341	2013	PA	Waldez Pires de Souza Júnior	042.811.626-40	Fazenda Patos de Minas - Rod. PA 279, Vicinal Castanheira, zona rural, Tucumã/PA	0151-2/01	09/03/15	1
+342	2009	PA	Waldoir Arpini	103.690.159-91	Fazenda São Judas Tadeu I - Rod. PA 279, km 06, zona rural de Tucumã/PA		23/07/14	4
+343	2014	GO	Walter de Araújo Júnior	908.403.641-72	Fazenda Boa Vista do Ribeirão - Ao lado do Sítio dos Animais, Guapó/GO	2342-7/02	16/12/15	6
+344	2010	PA	Welington Tomaz de Almeida	625.775.222-15	Garimpo Maracajá - Rod. PA 279, km 146, Vicinal Dalva II, km 02, Assentamento Maria Preta, zona rural de Ourilândia do Norte/PA		17/09/14	18
+345	2014	TO	Welligton Lourenço Nunes	369.775.941-87	Fazendas São Lourenço, Nova Esperança e Lote - Rod. TO 230, 46 km, zona rural, Arapoema/TO	0151-2/01	23/12/15	6
+346	2015	AM	Wilmar Cesário Rosa	145.364.041-04	Fazenda Vitória - Rod. BR 317, km 152, Ramal 52, Boca do Acre/AM	0151-2/01	18/01/16	13
+347	2014	TO	Yasushi Taji	024.064.549-91	Fazenda Taji - Rod. TO 070, entre Aliança e Dueré, km 18 à direita, zona rural, Crixás do Tocantins/TO	0220-9/02	13/02/15	5
+348	2015	MG	Zafer Engenharia Construção e Locação	11.781.112/0001-43	Rua Bonança, 288, Betânia, Belo Horizonte/MG	4299-5/99	14/12/15	3
+349	2014	SC	Zolair Tomazi Damo	593.757.019-72	Linha Damo - Linha São Cristóvão, zona rural, Caxambu do Sul/SC	0121-1/01	09/02/15	1
+350	2014	MA	Zurc - Saneamento e Construções Ltda	07.073.558/0001-46	Obra da UFMA - Avenida da Universidade, Bom Jesus, Imperatriz/MA	4120-4/00	28/08/15	17
