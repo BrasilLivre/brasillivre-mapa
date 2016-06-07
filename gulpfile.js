@@ -61,7 +61,10 @@ var app_js = function (options) {
         b.external(lib);
     });
     var rebundle = function () {
-        b.transform(babelify);
+        b.transform(babelify.configure({
+  presets: ["es2015", "react"]
+})
+                   );
 
     if(isProduction){
         b.plugin('minifyify', {
