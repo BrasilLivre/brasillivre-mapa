@@ -2,23 +2,31 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Local from './Local.js';
 import {Action} from './../../actions/Action.js';
+import SlavesStore from './../../stores/Slaves.js';
 class mainMap extends React.Component {
     constructor(props){
         super(props);
         this._onChange=this._onChange.bind(this);
-        this.state={}
+        this.state={
+           markers:SlavesStore.get()
+        }
     }
     componentDidMount(){
+        SlavesStore.addChangeListener(this._onChange);
+        Acionar('List','Slaves');
     }
     componentWillUnmount(){
+        SlavesStore.removeChangeListener(this._onChange);
     }
     _onChange(){
+        this.setState({
+            markers:SlavesStore.get(),
+        })
     }
     render(){
-        const self=this;
         return(
             <span>
-                        <Local/>
+                        <Local {...this.state}/>
             </span>
         )
     }

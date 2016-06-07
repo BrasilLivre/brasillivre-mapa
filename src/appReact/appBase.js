@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {Action} from './actions/Action.js';
+import Map from './components/Map/main.js';
 class Base extends React.Component{
     constructor(props){
         super(props)
@@ -12,7 +13,7 @@ class Base extends React.Component{
     _onChange(){
     }
     render(){
-        return (<span> asdf</span>);
+        return (<Map/>);
     }
 }
 ReactDOM.render((<Base/>) , document.getElementById('reactDiv'));
