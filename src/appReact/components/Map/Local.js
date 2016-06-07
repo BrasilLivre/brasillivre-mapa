@@ -73,7 +73,7 @@ class Local extends React.Component {
                                     };
                                     return (<Marker position={position}
                                         key={ref} ref={ref}
-                                        icon={'img/global/marker.png'}
+                                        icon={'img/markers/slavery.png'}
                                         onClick={this.handleMarkerClick.bind(this, marker.id,position)}
                                         title={(index+1).toString()}
                                     >
