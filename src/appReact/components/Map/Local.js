@@ -9,7 +9,7 @@ const brasiliaCoordinates={  lat : -14.235004, lng : -51.92528 };
 class Local extends React.Component {
     constructor(props, context) {
         super(props, context);
-        this.handleWindowResize = _.throttle(this.handleWindowResize, 500);
+        this.handleWindowResize = _.throttle(this.handleWindowResize.bind(this), 500);
         this.state={}
     }
     componentDidMount() {
@@ -45,10 +45,11 @@ class Local extends React.Component {
     }
     handleGoogleMapLoad(googleMap) {
         this._googleMapComponent = googleMap;
-        console.log(googleMap.getZoom());
     }
     render(){
         //const { center} = this.state;
+        //remover isso após criar um script de captura melhor
+        const markers = this.props.markers.filter((marker)=>'geometry' in marker);
         return (
             <section
                 className='gMap'>
@@ -65,19 +66,13 @@ class Local extends React.Component {
                                 defaultOptions={{
                                     styles: mapStyle,
                                 }}>
-                                {this.props.markers.map((marker, index) =>{
+                                {markers.map((marker, index) =>{
                                     const ref=`marker_${index}`;
-                                    const position= {
-                                        lat:marker.latLng.coordinates[1],
-                                        lng:marker.latLng.coordinates[0]
-                                    };
-                                    return (<Marker position={position}
+                                    return (<Marker position={marker.geometry.location}
                                         key={ref} ref={ref}
                                         icon={'img/markers/slavery.png'}
-                                        onClick={this.handleMarkerClick.bind(this, marker.id,position)}
                                         title={(index+1).toString()}
                                     >
-                                        {marker.id==this.state.markerAtual ? this.renderInfoWindow(ref, marker) : null}
                                     </Marker>)
                                 }
                                                        )}
