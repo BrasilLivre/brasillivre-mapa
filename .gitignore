@@ -57,8 +57,18 @@ docs/_build/
 
 # PyBuilder
 target/
+#ignore node_modules
+node_modules
+node_module
+node_modules/
 
+node_modules/
+node_modules
+node_modules/**/
+node_modules/**/**/
+node_modules/**/**/**
 #Ipython Notebook
 .ipynb_checkpoints
 #ignore bower
 www/bower_components/
+www/bower_components
