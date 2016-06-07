@@ -26,8 +26,6 @@ var vendor_libs = [
     'flux',
     'backbone',
     'react-google-maps',
-    'react-swipe-views',
-    'underscore',
 ];
 
 var isProduction = gutil.env.min?true:false;
