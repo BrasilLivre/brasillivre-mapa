@@ -1,6 +1,5 @@
-import {GLOBAL} from './../variables/GLOBAL.js';
 import AppDispatcher from '../flux/AppDispatcher';
-import  {EventEmitter} 'events';
+import  {EventEmitter} from 'events';
 import  _ from 'underscore';
 const CHANGE_EVENT = 'CHANGE_SLAVES';
 const zero = {
@@ -10,17 +9,16 @@ let _slavesApp = JSON.parse(JSON.stringify(zero));
 const _cleanStore =()=>_slavesApp = JSON.parse(JSON.stringify(zero));
 const  _listSlaves=()=>{
     //$.ajax({
-        //url: `${URL.API}reciclaveis/lista?y=${_dateFilter.y}&m=${_dateFilter.m}&d=${_dateFilter.d}`,
-        //type: 'GET',
-        //success: function(data) {
-            //_slavesApp.markers=data;
-            //SlavesStore.emitChange();
-        //},
-        //error: function(xhr, errmsg, err) {
-        //}
+    //url: `${URL.API}reciclaveis/lista?y=${_dateFilter.y}&m=${_dateFilter.m}&d=${_dateFilter.d}`,
+    //type: 'GET',
+    //success: function(data) {
+    //_slavesApp.markers=data;
+    //SlavesStore.emitChange();
+    //},
+    //error: function(xhr, errmsg, err) {
+    //}
     //});
 }
-
 const SlavesStore = _.extend({}, EventEmitter.prototype, {
     emitChange: function() {
         this.emit(CHANGE_EVENT);
@@ -41,9 +39,9 @@ SlavesStore.dispatchToken = AppDispatcher.register(function(payload) {
     switch (action.type) {
       case "List_Slaves":
         _listSlaves();
-        break;
-      default:
-        // do nothing
+      break;
+    default:
+      // do nothing
     }
 });
-export SlavesStore;
+export default SlavesStore;

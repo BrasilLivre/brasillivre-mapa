@@ -22,6 +22,7 @@
     "lodash": "^4.13.1",
     "minifyify": "7.3.3",
     "react": "^15.1.0",
+    "react-addons-update": "^15.1.0",
     "react-dom": "^15.1.0",
     "react-google-maps": "^4.11.0",
     "underscore": "^1.8.3",

@@ -7,21 +7,17 @@ class mainMap extends React.Component {
     constructor(props){
         super(props);
         this._onChange=this._onChange.bind(this);
-        this.state={
-           markers:SlavesStore.get()
-        }
+        this.state=SlavesStore.get()
     }
     componentDidMount(){
         SlavesStore.addChangeListener(this._onChange);
-        Acionar('List','Slaves');
+        Action('List','Slaves');
     }
     componentWillUnmount(){
         SlavesStore.removeChangeListener(this._onChange);
     }
     _onChange(){
-        this.setState({
-            markers:SlavesStore.get(),
-        })
+        this.setState( SlavesStore.get())
     }
     render(){
         return(
