@@ -74,3 +74,5 @@ www/bower_components/
 www/bower_components
 #ignore api key google
 data/apiKey
+#ignore build files
+www/build/
