@@ -23,7 +23,8 @@ def getExtraData(criminal):
 	return criminal
 
 def aggregrateGEO(criminal):
-	r= requests.get('https://maps.googleapis.com/maps/api/geocode/json',params={'address':criminal['cityName'],'key':apiKey})
+    	r= requests.get('https://maps.googleapis.com/maps/api/geocode/json',params={'address':criminal['cityName'],'key':apiKey,'components':'country:brasil'})
+
 	try:	
 		criminal['geometry'] = r.json()['results'][0]['geometry'] 
 	except:
@@ -31,10 +32,11 @@ def aggregrateGEO(criminal):
 		print criminal['cityName']
 	return criminal
 healedCriminalData=map(getExtraData,filter(excludeWrongData,criminal))
-healedBadCriminalData=map(aggregrateGEO,healedCriminalData)
+healedCriminalData=map(aggregrateGEO,healedCriminalData)
 
-
-with open('healedBadCriminalData.json', 'w') as fp:
+with open('healedCriminalData.json', 'w') as fp:
+    json.dump(healedCriminalData, fp)
+with open('badCriminalData.json', 'w') as fp:
     json.dump(badCriminalData, fp)
 
 
