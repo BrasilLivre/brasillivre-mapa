@@ -16,7 +16,7 @@ class Local extends React.Component {
     handleCloseclick () {
         this.setState({center:this.state.center,marker:-1});
     }
- 
+
     renderInfoWindow (ref, marker) {
         return (<InfoWindow
             key={`${ref}_info_window`}

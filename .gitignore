@@ -72,3 +72,5 @@ node_modules/**/**/**
 #ignore bower
 www/bower_components/
 www/bower_components
+#ignore api key google
+data/apiKey
