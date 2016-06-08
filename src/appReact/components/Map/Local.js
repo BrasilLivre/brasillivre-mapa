@@ -10,7 +10,11 @@ class Local extends React.Component {
     constructor(props, context) {
         super(props, context);
         this.handleWindowResize = _.throttle(this.handleWindowResize.bind(this), 500);
-        this.state={}
+        this.state=  {
+            center: brasiliaCoordinates,
+            markerNow:-1
+        }
+
     }
     componentDidMount() {
         if (!canUseDOM) {
@@ -25,21 +29,48 @@ class Local extends React.Component {
         window.removeEventListener(`resize`, this.handleWindowResize);
     }
     handleWindowResize() {
-        console.log(`handleWindowResize`, this._googleMapComponent);
         triggerEvent(this._googleMapComponent, `resize`);
     }
-    handleMarkerClick (id,centro) {
-        this.setState({marker:id});
+    handleMarkerClick (id,center) {
+        this.setState({center:center,markerNow:id});
     }
     handleCloseclick () {
-        this.setState({center:this.state.center,marker:-1});
+        this.setState({center:this.state.center,markerNow:-1});
     }
-    renderInfoWindow (ref, marker) {
+       renderInfoWindow (ref, marker) {
         return (<InfoWindow
             key={`${ref}_info_window`}
             content={''}
             onCloseclick={this.handleCloseclick.bind(this)}
         >
+            <div className='col-xs-12'>
+                <dl>
+                    <dt className='leftDt green-text'>
+                        <span className='strong'>
+                        Empregador                        </span>
+                    </dt>
+                    <dd>
+                        &nbsp; {marker['EMPREGADOR']}
+                    </dd>
+
+                    <dt className='leftDt green-text'>
+                        <span className='strong'>
+                        Ano
+                        </span>
+                    </dt>
+                    <dd>
+                        &nbsp; {marker['ANO']}
+                    </dd>
+                    <dt className='leftDt green-text'>
+                        <span className='strong'>
+                            Trabalhadores Libertados
+                        </span>
+                    </dt>
+                    <dd>
+                        &nbsp; {marker['TRAB. ENVOL.']}
+                    </dd>
+                </dl>
+            </div>
         </InfoWindow>
                )
     }
@@ -71,9 +102,12 @@ class Local extends React.Component {
                                     return (<Marker position={marker.geometry.location}
                                         key={ref} ref={ref}
                                         icon={'img/markers/slavery.png'}
+                        onClick={this.handleMarkerClick.bind(this, marker.id,marker.geometry.location)}
                                         title={(index+1).toString()}
                                     >
-                                    </Marker>)
+
+                        {marker.id==this.state.markerNow ? this.renderInfoWindow(ref, marker) : null}
+                                </Marker>)
                                 }
                                                        )}
                                                    </GoogleMap>
