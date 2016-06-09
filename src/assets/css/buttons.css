@@ -1,0 +1,19 @@
+.btnCircle{
+width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: left;
+    margin: 0px 0px 30px 20px;
+}
+.white{
+    background: white;
+}
+.red{
+    background: #f11d24;
+}
+.btnCircle svg{
+    font-size:32px;
+}
+.btnCircle.red svg{
+    color:white;
+}

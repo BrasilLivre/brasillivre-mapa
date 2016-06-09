@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Local from './Local.js';
+import LeftNav from './LeftNav.js';
 import {Action} from './../../actions/Action.js';
 import SlavesStore from './../../stores/Slaves.js';
 class mainMap extends React.Component {
@@ -22,6 +23,7 @@ class mainMap extends React.Component {
     render(){
         return(
             <span>
+            <LeftNav/>
                         <Local {...this.state}/>
             </span>
         )
