@@ -4,20 +4,33 @@ import  _ from 'underscore';
 const CHANGE_EVENT = 'CHANGE_SLAVES';
 const zero = {
     markers:[],
+    loadMap:false,
+    heatMap:true,
+    markerNow:-1,
+    modalIsOpen:false
 };
 let _slavesApp = JSON.parse(JSON.stringify(zero));
 const _cleanStore =()=>_slavesApp = JSON.parse(JSON.stringify(zero));
 const  _listSlaves=()=>{
     $.ajax({
-    url: `/data/2014-2016.json`,
-    type: 'GET',
-    success: function(data) {
-    _slavesApp.markers=data;
-    SlavesStore.emitChange();
-    },
-    error: function(xhr, errmsg, err) {
-    }
+        url: `/data/2014-2016.json`,
+        type: 'GET',
+        success: function(data) {
+            _slavesApp.markers=data;
+            SlavesStore.emitChange();
+        },
+        error: function(xhr, errmsg, err) {
+        }
     });
+}
+const _modal=(isOpen,id=-1)=>{
+    _slavesApp.modalIsOpen=isOpen;
+    _slavesApp.markerNow=id;
+    SlavesStore.emitChange();
+}
+const _loadMap=()=>{
+    _slavesApp.loadMap=true;
+    SlavesStore.emitChange();
 }
 const SlavesStore = _.extend({}, EventEmitter.prototype, {
     emitChange: function() {
@@ -40,6 +53,15 @@ SlavesStore.dispatchToken = AppDispatcher.register(function(payload) {
       case "List_Slaves":
         _listSlaves();
       break;
+    case 'Load_Map':
+      _loadMap();
+    break;
+  case 'CloseModal_Map':
+    _modal(false);
+  break;
+case 'OpenModal_Map':
+  _modal(true,action.data.marker);
+break;
     default:
       // do nothing
     }

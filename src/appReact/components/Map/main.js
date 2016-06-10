@@ -4,6 +4,7 @@ import Local from './Local.js';
 import LeftNav from './LeftNav.js';
 import {Action} from './../../actions/Action.js';
 import SlavesStore from './../../stores/Slaves.js';
+let time;
 class mainMap extends React.Component {
     constructor(props){
         super(props);
@@ -12,7 +13,15 @@ class mainMap extends React.Component {
     }
     componentDidMount(){
         SlavesStore.addChangeListener(this._onChange);
+
         Action('List','Slaves');
+        //time=setInterval(() => {
+            //if (!google || !google.maps) return ;
+            //Action('Load_Map');
+
+    //clearInterval(time);
+        //},1000);
+
     }
     componentWillUnmount(){
         SlavesStore.removeChangeListener(this._onChange);
@@ -23,7 +32,13 @@ class mainMap extends React.Component {
     render(){
         return(
             <span>
-            <LeftNav/>
+                <LeftNav/>
+  <section
+      className='gMap'>
+
+      <div id='mapDiv' className='mapDiv'></div>
+                                             </section>
+
                         <Local {...this.state}/>
             </span>
         )
