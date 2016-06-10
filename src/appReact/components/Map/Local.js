@@ -7,13 +7,13 @@ import {Action} from './../../actions/Action.js';
 import Modal from 'react-modal';
 import ChainBroken from 'react-icons/lib/fa/chain-broken';
 var heatMap;
-const brasiliaCoordinates={  lat : -14.235004, lng : -51.92528 };
 let gMap;
 let time;
-const _initMap=()=>{
+let markersLoad=false;
+const _initMap=(center)=>{
     const mapOptions =  {
         zoom: 5,
-        center: brasiliaCoordinates,
+        center: center,
         mapTypeIds: ['mapStyle']
     };
     clearInterval(time);
@@ -115,28 +115,16 @@ class InfoWindow extends React.Component{
     )}
 }
 class Local extends React.Component {
-    constructor(props, context) {
-        super(props, context);
-        this.state=  {
-            center: brasiliaCoordinates,
-        }
-    }
     componentDidMount() {
         time=setInterval(() => {
             if (!google || !google.maps) return ;
-            _initMap();
+            _initMap(this.props.center);
         },1000);
-    }
-    componentWillUnmount() {
-        //window.removeEventListener(`resize`, this.handleWindowResize);
-    }
-    handleMarkerClick (id,center) {
-        this.setState({center:center});
-        Action('OpenModal','Map',{marker:id});
     }
     render(){
         if (!this.props.loadMap) return <span/>
         const markers = this.props.markers.filter((marker)=>'geometry' in marker);
+        if(!markersLoad){
         markers.map((item,id)=>{
             let marker = new google.maps.Marker({
                 position:item.geometry.location,
@@ -145,10 +133,13 @@ class Local extends React.Component {
             marker.setMap(gMap);
             marker.addListener('click', function() {
                 _openModal(id);
+                gMap.setCenter(marker.getPosition());
             });
-        })
+        });
+        markersLoad=true;
+        }
         if (this.props.heatMap) _heatMap(this.props.markers);
-        if (this.props.markerNow==-1) return (<span/>)
+        if (this.props.markerNow==-1) return (<span/>);
         return (
             <section>
                 <InfoWindow marker={markers[this.props.markerNow]}

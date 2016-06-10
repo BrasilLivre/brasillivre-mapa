@@ -7,7 +7,7 @@ const zero = {
     loadMap:false,
     heatMap:true,
     markerNow:-1,
-    modalIsOpen:false
+    center:{  lat : -14.235004, lng : -51.92528 }
 };
 let _slavesApp = JSON.parse(JSON.stringify(zero));
 const _cleanStore =()=>_slavesApp = JSON.parse(JSON.stringify(zero));
