@@ -7,6 +7,8 @@ const zero = {
     loadMap:false,
     heatMap:true,
     markerNow:-1,
+    showMarkers:true,
+    showHeatMap:true,
     center:{  lat : -14.235004, lng : -51.92528 }
 };
 let _slavesApp = JSON.parse(JSON.stringify(zero));
@@ -28,6 +30,15 @@ const _modal=(isOpen,id=-1)=>{
     _slavesApp.markerNow=id;
     SlavesStore.emitChange();
 }
+const _toogleMarkers=()=>{
+    _slavesApp.showMarkers=!_slavesApp.showMarkers;
+    SlavesStore.emitChange();
+}
+const _toogleHeatmap=()=>{
+    _slavesApp.showHeatMap=!_slavesApp.showHeatMap;
+    SlavesStore.emitChange();
+}
+
 const _loadMap=()=>{
     _slavesApp.loadMap=true;
     SlavesStore.emitChange();
@@ -62,6 +73,13 @@ SlavesStore.dispatchToken = AppDispatcher.register(function(payload) {
 case 'OpenModal_Map':
   _modal(true,action.data.marker);
 break;
+case 'ToogleMarkers_Map':
+  _toogleMarkers();
+break;
+case 'ToogleHeatMap_Map':
+  _toogleHeatmap();
+break;
+
     default:
       // do nothing
     }

@@ -10,6 +10,8 @@ var heatMap;
 let gMap;
 let time;
 let markersLoad=false;
+let heatMapLoad=false;
+let arrayMarkers=[];
 const _initMap=(center)=>{
     const mapOptions =  {
         zoom: 5,
@@ -44,6 +46,9 @@ const _heatMap=(markers)=>{
     });
     heatMap.set('radius', 20);
 }
+const _toogleHeatMap=(showHeatMap)=> heatMap.setMap(showHeatMap ? null : gMap);
+const _toogleMarkers=(showMarkers)=>arrayMarkers.map((marker)=>marker.setVisible(showMarkers));
+//const _toogleHeatMap=(showHeatMap)=> heatMap.setMap(showHeatMap ? null : gMap);
 const Icon=(icon)=>{
     let ico = <span/>;
     ico = icon=='suitcase'? <Suitcase/>:ico;
@@ -121,10 +126,20 @@ class Local extends React.Component {
             _initMap(this.props.center);
         },1000);
     }
+    componentWillReceiveProps(nextProps) {
+        const heatMapChanged=nextProps.showHeatMap!=this.props.showHeatMap;
+        const markersChanged=nextProps.showMarkers!=this.props.showMarkers;
+        if (heatMapChanged) _toogleHeatMap(nextProps.showHeatMap);
+        if (markersChanged) _toogleMarkers(nextProps.showMarkers);
+    }
+
+
     render(){
         if (!this.props.loadMap) return <span/>
         const markers = this.props.markers.filter((marker)=>'geometry' in marker);
         if(!markersLoad){
+arrayMarkers=[];
+
         markers.map((item,id)=>{
             let marker = new google.maps.Marker({
                 position:item.geometry.location,
@@ -135,10 +150,14 @@ class Local extends React.Component {
                 _openModal(id);
                 gMap.setCenter(marker.getPosition());
             });
+            arrayMarkers.push(marker);
         });
         markersLoad=true;
         }
-        if (this.props.heatMap) _heatMap(this.props.markers);
+        if(!heatMapLoad){
+            _heatMap(this.props.markers);
+            heatMapLoad=true;
+        }
         if (this.props.markerNow==-1) return (<span/>);
         return (
             <section>
