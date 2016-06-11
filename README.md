@@ -1,5 +1,4 @@
 # brasillivre
-![alt text](www/readme.png "")
 
 ### Fontes
 A Lista de Transparência sobre Trabalho Escravo Contemporâneo no Brasil pode ser obtida através do seguinte link
