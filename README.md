@@ -4,7 +4,8 @@
 A Lista de Transparência sobre Trabalho Escravo Contemporâneo no Brasil pode ser obtida através do seguinte link
 
 [http://reporterbrasil.org.br/wp-content/uploads/2016/06/listadetransparencia4.pdf](http://reporterbrasil.org.br/wp-content/uploads/2016/06/listadetransparencia4.pdf)
-## Objetivos do Projeto
+
+### Objetivos do Projeto
 
 ### O porquê
 [STF proíbe Ministério do Trabalho de divulgar lista suja do trabalho escravo](http://oglobo.globo.com/economia/negocios/stf-proibe-ministerio-do-trabalho-de-divulgar-lista-suja-do-trabalho-escravo-14944492)
