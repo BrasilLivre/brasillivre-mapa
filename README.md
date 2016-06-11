@@ -14,9 +14,10 @@ A Lista de Transparência sobre Trabalho Escravo Contemporâneo no Brasil pode s
 [STF libera divulgação de lista suja do trabalho escravo]
 (http://exame.abril.com.br/brasil/noticias/stf-libera-divulgacao-de-lista-de-empresas-autuadas-por-trabalho-escravo)
 ...não consigo compreender o judiciário
+[http://www.bbc.com/portuguese/noticias/2014/11/141117_escravidao_brasil_mundo_pai](http://www.bbc.com/portuguese/noticias/2014/11/141117_escravidao_brasil_mundo_pai)
 
-
-### todo
+### todo]
+0. Inserir dados de anos anteriores 2011
 1. Criar um script para tratar os dados que encontram-se armazenados em [data/badCriminalData.json](data/)
 ..eu  consegui tratar a maioria dos dados(os quais foram extraidos do [pdf](http://reporterbrasil.org.br/wp-content/uploads/2016/06/listadetransparencia4.pdf) e através da API do google fui capaz de inserir informações sobre lat e lng dos processos, os dados que puderam ser tratados encontram-se disponíveis em [data/healedCriminalData.json](data/)
 2. Agregar informações de outros processos relacionadas a um dado CNPJ, 
