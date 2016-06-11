@@ -25,7 +25,7 @@ var vendor_libs = [
     'react-dom',
     'flux',
     'backbone',
-    'react-google-maps',
+    'react-modal',
 ];
 
 var isProduction = gutil.env.min?true:false;
