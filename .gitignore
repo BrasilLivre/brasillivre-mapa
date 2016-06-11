@@ -76,3 +76,6 @@ www/bower_components
 data/apiKey
 #ignore build files
 www/build/
+.gitignore
+gh-pages/
+gh-pages
