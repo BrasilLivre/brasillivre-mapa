@@ -28,6 +28,7 @@ const _stylizeMap=()=>{
                                                   {name: "Mapa Brasil Livre"});
     gMap.mapTypes.set('mapStyle', styledMap);
     gMap.setMapTypeId('mapStyle');
+
 }
 const _getPoints=(markers)=>{
     let points=[];
@@ -124,7 +125,7 @@ class Local extends React.Component {
         time=setInterval(() => {
             if (!google || !google.maps) return ;
             _initMap(this.props.center);
-        },1000);
+        },500);
     }
     componentWillReceiveProps(nextProps) {
         const heatMapChanged=nextProps.showHeatMap!=this.props.showHeatMap;
@@ -132,7 +133,15 @@ class Local extends React.Component {
         if (heatMapChanged) _toogleHeatMap(nextProps.showHeatMap);
         if (markersChanged) _toogleMarkers(nextProps.showMarkers);
     }
+    componentDidUpdate(){
 
+        if (!this.props.loadMap) return true;
+        var whaitMap=setInterval(() => {
+            document.body.className='';
+         clearInterval(whaitMap);
+        },1000);
+
+     }
 
     render(){
         if (!this.props.loadMap) return <span/>
@@ -153,12 +162,15 @@ arrayMarkers=[];
             arrayMarkers.push(marker);
         });
         markersLoad=true;
+
         }
         if(!heatMapLoad){
             _heatMap(this.props.markers);
             heatMapLoad=true;
         }
+
         if (this.props.markerNow==-1) return (<span/>);
+
         return (
             <section>
                 <InfoWindow marker={markers[this.props.markerNow]}
