@@ -16,13 +16,7 @@ A Lista de Transparência sobre Trabalho Escravo Contemporâneo no Brasil pode s
 ...não consigo compreender o judiciário
 [http://www.bbc.com/portuguese/noticias/2014/11/141117_escravidao_brasil_mundo_pai](http://www.bbc.com/portuguese/noticias/2014/11/141117_escravidao_brasil_mundo_pai)
 
-### todo]
-0. Inserir dados de anos anteriores 2011
-1. Criar um script para tratar os dados que encontram-se armazenados em [data/badCriminalData.json](data/)
-..eu  consegui tratar a maioria dos dados(os quais foram extraidos do [pdf](http://reporterbrasil.org.br/wp-content/uploads/2016/06/listadetransparencia4.pdf) e através da API do google fui capaz de inserir informações sobre lat e lng dos processos, os dados que puderam ser tratados encontram-se disponíveis em [data/healedCriminalData.json](data/)
-2. Agregar informações de outros processos relacionadas a um dado CNPJ, 
-3. Agregar a informação se um dado CNPJ realizou doação para campanha de um político e/ou partido
-4. Melhorar esse Readme.md
-5. Outras coisas que não  lembro
+### Roadmap
 
-
+Se você deseja contribuir para o projeto eu coloquei em 
+[brasillivre/labels/roadmap](brasillivre/labels/roadmap) todos os issues que considero mais importantes no momento, pull requests são sempre bem-vindos, assim como novas sugestões de features.
