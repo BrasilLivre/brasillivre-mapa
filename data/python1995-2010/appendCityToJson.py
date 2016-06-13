@@ -23,20 +23,15 @@ def aggregrateCity(criminal):
 	cityEmpty=criminal['municipio']=='';
 	if cityEmpty:
 		filterCity=findCity(criminal['Ano'],criminal['UF'],criminal['trabalhadores'])
-		citys=filter(findGeoCity,criminalCity)
-		criminal['municipio']=citys[0]['municipio']
-	#try:	
-		#criminal['mu'] = r.json()['results'][0]['geometry'] 
-	#except:
-		#badCriminalData.append(criminal)
-		#print criminal['cityName']
+		citys=filter(filterCity,criminalCity)
+		criminal['municipio']=citys[0]['municipio'].encode('utf-8')
 	return criminal
 
 healedCriminalData=map(aggregrateCity,criminalRust)
 
 
 
-with open('healedCriminalData-appendCity.json', 'w') as fp:
+with open('../json/1995-2010-healed(cidadesInseridas).py', 'w') as fp:
     json.dump(healedCriminalData, fp)
 
 
