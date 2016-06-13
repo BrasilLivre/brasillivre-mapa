@@ -16,7 +16,7 @@ A Lista de Transparência sobre Trabalho Escravo Contemporâneo no Brasil pode s
 ...não consigo compreender o judiciário
 [http://www.bbc.com/portuguese/noticias/2014/11/141117_escravidao_brasil_mundo_pai](http://www.bbc.com/portuguese/noticias/2014/11/141117_escravidao_brasil_mundo_pai)
 
-### Roadmap
+### [Roadmap](https://github.com/devmessias/brasillivre/labels/roadmap)
 
 Se você deseja contribuir para o projeto eu coloquei em 
-[brasillivre/labels/roadmap](brasillivre/labels/roadmap) todos os issues que considero mais importantes no momento, pull requests são sempre bem-vindos, assim como novas sugestões de features.
+[brasillivre/labels/roadmap](/devmessias/brasillivre/labels/roadmap) todos os issues que considero mais importantes no momento, pull requests são sempre bem-vindos, assim como novas sugestões de features.
