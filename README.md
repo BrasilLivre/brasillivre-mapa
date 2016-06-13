@@ -19,4 +19,4 @@ A Lista de Transparência sobre Trabalho Escravo Contemporâneo no Brasil pode s
 ### [Roadmap](https://github.com/devmessias/brasillivre/labels/roadmap)
 
 Se você deseja contribuir para o projeto eu coloquei em 
-[brasillivre/labels/roadmap](/devmessias/brasillivre/labels/roadmap) todos os issues que considero mais importantes no momento, pull requests são sempre bem-vindos, assim como novas sugestões de features.
+[brasillivre/labels/roadmap](https://github.com/devmessias/brasillivre/labels/roadmap) todos os issues que considero mais importantes no momento, pull requests são sempre bem-vindos, assim como novas sugestões de features.
