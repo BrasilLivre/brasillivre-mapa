@@ -33,7 +33,9 @@ const _stylizeMap=()=>{
 const _getPoints=(markers)=>{
     let points=[];
     markers.map((item)=>{
-        Array(item['TRAB. ENVOL.']).fill(0).map(()=>{
+        let trabalhadores=item['trabalhadores'];
+        trabalhadores =Number(String(trabalhadores).replace('.',''))
+        Array(trabalhadores).fill(0).map(()=>{
             let point = new google.maps.LatLng(item.geometry.location.lat, item.geometry.location.lng);
             points.push(point);
         })
@@ -81,24 +83,24 @@ const InfoBox = (props)=>{
     return(
     <div className='col-xs-12 infoBox'>
         <span className='strong'>
-            &nbsp; {marker['ANO']}
+            &nbsp; {marker['Ano']}
         </span>
         <BoxDetail
             fontSize='17px'
             classValue='center text-center center-block'
-            value={marker['ESTABELECIMENTO']}/>
+            value={marker['estabelecimento']}/>
         <BoxDetail
             name='Empregador'
             icon='suitcase'
-            value={marker['EMPREGADOR']}/>
+            value={marker['empregador']}/>
         <BoxDetail
             name='Trabalhadores Libertados'
             icon='chain-broken'
-            value={marker['TRAB. ENVOL.']}/>
+            value={marker['trabalhadores']}/>
         <BoxDetail
             name='CPF/CNPJ'
             icon='cpf'
-            value={marker['CNPJ/CPF']}/>
+            value={marker['CPF/CNPJ']}/>
     </div>
     )
 }
