@@ -8,6 +8,7 @@ const zero = {
     heatMap:true,
     markerNow:-1,
     showMarkers:true,
+    requests:0,
     showHeatMap:true,
     center:{  lat : -14.235004, lng : -51.92528 }
 };
@@ -18,8 +19,8 @@ const  _listSlaves=()=>{
         url: `/data/2014-2016.json`,
         type: 'GET',
         success: function(data) {
-            //_slaveApp.markers=_.extend(data,_slavesApp.markers);
             _slavesApp.markers=_slavesApp.markers.concat(data);
+            _slavesApp.requests+=1;
             SlavesStore.emitChange();
         },
         error: function(xhr, errmsg, err) {
@@ -30,6 +31,7 @@ const  _listSlaves=()=>{
         type: 'GET',
         success: function(data) {
             _slavesApp.markers=_slavesApp.markers.concat(data);
+            _slavesApp.requests+=1;
             SlavesStore.emitChange();
         },
         error: function(xhr, errmsg, err) {

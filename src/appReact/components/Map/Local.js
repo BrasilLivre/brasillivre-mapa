@@ -12,6 +12,7 @@ let time;
 let markersLoad=false;
 let heatMapLoad=false;
 let arrayMarkers=[];
+let allWorkers=0;
 const _initMap=(center)=>{
     const mapOptions =  {
         zoom: 5,
@@ -34,11 +35,13 @@ const _getPoints=(markers)=>{
     let points=[];
     markers.map((item)=>{
         let trabalhadores=item['trabalhadores'];
+
         trabalhadores =Number(String(trabalhadores).replace('.',''))
-        Array(trabalhadores).fill(0).map(()=>{
-            let point = new google.maps.LatLng(item.geometry.location.lat, item.geometry.location.lng);
+            //Array(trabalhadores).fill(0).map(()=>{
+            //let point = new google.maps.LatLng(item.geometry.location.lat+Math.random()/10, item.geometry.location.lng+Math.random()/10);
+            var point = {location:new google.maps.LatLng(item.geometry.location.lat, item.geometry.location.lng),weight:trabalhadores};
             points.push(point);
-        })
+        //})
     });
     return points;
 }
@@ -47,7 +50,7 @@ const _heatMap=(markers)=>{
         data: _getPoints(markers),
         map: gMap
     });
-    heatMap.set('radius', 20);
+    heatMap.set('radius', 30);
 }
 const _toogleHeatMap=(showHeatMap)=> heatMap.setMap(showHeatMap ? null : gMap);
 const _toogleMarkers=(showMarkers)=>arrayMarkers.map((marker)=>marker.setVisible(showMarkers));
@@ -166,7 +169,7 @@ arrayMarkers=[];
         markersLoad=true;
 
         }
-        if(!heatMapLoad){
+        if(!heatMapLoad && this.props.requests==2){
             _heatMap(this.props.markers);
             heatMapLoad=true;
         }
