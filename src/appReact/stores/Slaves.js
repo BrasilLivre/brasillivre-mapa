@@ -18,12 +18,24 @@ const  _listSlaves=()=>{
         url: `/data/2014-2016.json`,
         type: 'GET',
         success: function(data) {
-            _slavesApp.markers=data;
+            //_slaveApp.markers=_.extend(data,_slavesApp.markers);
+            _slavesApp.markers=_slavesApp.markers.concat(data);
             SlavesStore.emitChange();
         },
         error: function(xhr, errmsg, err) {
         }
     });
+    $.ajax({
+        url: `/data/1995-2010.json`,
+        type: 'GET',
+        success: function(data) {
+            _slavesApp.markers=_slavesApp.markers.concat(data);
+            SlavesStore.emitChange();
+        },
+        error: function(xhr, errmsg, err) {
+        }
+    });
+
 }
 const _modal=(isOpen,id=-1)=>{
     _slavesApp.modalIsOpen=isOpen;
