@@ -10,7 +10,7 @@ if len(sys.argv) ==1:
 apiKey=sys.argv[1]
 badCriminalData=[]
 criminal = json.loads(open('rustCriminal2014-2016-nao-tratado.json').read())
-apiKey='AIzaSyAvPgkMXz2OqWP8FXqPFbyJOleDyvUwKws'
+
 def excludeWrongData(criminal):
 	noCity = isinstance(criminal['ESTABELECIMENTO'],int)
 	if noCity is True:
