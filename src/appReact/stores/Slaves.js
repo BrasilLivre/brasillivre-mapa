@@ -37,6 +37,18 @@ const  _listSlaves=()=>{
         error: function(xhr, errmsg, err) {
         }
     });
+  $.ajax({
+        url: `/data/2011-2014.json`,
+        type: 'GET',
+        success: function(data) {
+            _slavesApp.markers=_slavesApp.markers.concat(data);
+            _slavesApp.requests+=1;
+            SlavesStore.emitChange();
+        },
+        error: function(xhr, errmsg, err) {
+        }
+    });
+
 
 }
 const _modal=(isOpen,id=-1)=>{

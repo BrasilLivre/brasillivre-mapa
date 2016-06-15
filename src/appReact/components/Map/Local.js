@@ -149,7 +149,7 @@ class Local extends React.Component {
      }
 
     render(){
-        if (!this.props.loadMap) return <span/>
+        if (!this.props.loadMap || this.props.requests<3) return <span/>
         const markers = this.props.markers.filter((marker)=>'geometry' in marker);
         if(!markersLoad){
 arrayMarkers=[];
@@ -169,7 +169,7 @@ arrayMarkers=[];
         markersLoad=true;
 
         }
-        if(!heatMapLoad && this.props.requests==2){
+        if(!heatMapLoad){
             _heatMap(this.props.markers);
             heatMapLoad=true;
         }
