@@ -20,4 +20,6 @@ body .divLoading{
 }
 body .imgLoading{
      display:none;
+     max-width:80%;
+     max-height:100%;
 }
