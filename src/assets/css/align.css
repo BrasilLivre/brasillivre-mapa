@@ -1,6 +1,6 @@
 .centrarX{
     position:absolute;
-    -webkit-transform:translateX(-50%);
+   -webkit-transform:translateX(-50%);
     transform:translateX(-50%);
     left:50%!important;
 }

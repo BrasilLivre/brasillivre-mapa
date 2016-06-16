@@ -62,7 +62,10 @@ var app_js = function (options) {
     });
     var rebundle = function () {
         b.transform(babelify.configure({
-  presets: ["es2015", "react"]
+            presets: ["es2015", "react"],
+            plugins:["transform-decorators-legacy"]
+
+
 })
                    );
 
