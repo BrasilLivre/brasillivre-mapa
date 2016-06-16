@@ -8,6 +8,7 @@ const zero = {
     loadMap:false,
     heatMap:true,
     markerNow:-1,
+    slavesFree:0,
     showMarkers:true,
     filter:{
         year:{

@@ -37,7 +37,6 @@ const _getPoints=(markers)=>{
     let points=[];
     markers.map((item)=>{
         let trabalhadores=item['trabalhadores'];
-        trabalhadores =Number(String(trabalhadores).replace('.',''))
         var point = {location:new google.maps.LatLng(item.geometry.location.lat, item.geometry.location.lng),weight:trabalhadores};
         points.push(point);
     });
