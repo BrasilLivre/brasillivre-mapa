@@ -9,3 +9,6 @@
     margin-right: -50%;
     background: rgb(255, 255, 255);
 }
+.ReactModal__Overlay{
+    z-index:2;
+}
