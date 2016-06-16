@@ -46,6 +46,9 @@ const  _listSlaves=()=>{
                 type: 'GET',
                 success: function(data) {
                     _slavesApp.markers=_slavesApp.markers.concat(data);
+                    _slavesApp.slavesFree=_slavesApp.markers.reduce((p,c)=>(
+                        {'trabalhadores': p['trabalhadores']+c['trabalhadores']}
+                    ))['trabalhadores'];
                     _slavesApp.markersData=_slavesApp.markersData.concat(data);
                     SlavesStore.emitChange();
                 },
@@ -79,6 +82,9 @@ const _filterYear=(min,max)=>{
     _slavesApp.markers= _slavesApp.markers.filter((item)=>{
         return item['Ano']<=max && item['Ano']>=min;
     });
+    _slavesApp.slavesFree=_slavesApp.markers.reduce((p,c)=>(
+        {'trabalhadores': p['trabalhadores']+c['trabalhadores']}
+    ))['trabalhadores'];
     SlavesStore.emitChange();
 }
 const _updatedMarkers=()=>{

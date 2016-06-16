@@ -6,6 +6,13 @@ import RightNav from './RightNav.js';
 import {Action} from './../../actions/Action.js';
 import SlavesStore from './../../stores/Slaves.js';
 import Config from './Config.js';
+const Contador=(props)=>(
+ <div className='bottomNav centrarX'>
+                    <img src='img/contador.png'/>
+                     <small className='centrarX'>Escravos</small>
+                    <span className='centrarX'>{props.slavesFree}</span>
+                </div>
+)
 class mainMap extends React.Component {
     constructor(props){
         super(props);
@@ -27,6 +34,7 @@ class mainMap extends React.Component {
             <span>
                 <LeftNav/>
                 <RightNav/>
+                <Contador slavesFree={this.state.slavesFree}/>
                 <section
                     className='gMap'>
                     <div id='mapDiv' className='mapDiv'></div>
