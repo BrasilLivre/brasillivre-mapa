@@ -12,3 +12,10 @@
 
     z-index:1;
 }
+.bottomNav{
+    position: absolute;
+    bottom:100px;
+width:300px;
+    z-index:1;
+
+}

@@ -5,7 +5,7 @@ import LeftNav from './LeftNav.js';
 import RightNav from './RightNav.js';
 import {Action} from './../../actions/Action.js';
 import SlavesStore from './../../stores/Slaves.js';
-let time;
+import Config from './Config.js';
 class mainMap extends React.Component {
     constructor(props){
         super(props);
@@ -14,15 +14,7 @@ class mainMap extends React.Component {
     }
     componentDidMount(){
         SlavesStore.addChangeListener(this._onChange);
-
         Action('List','Slaves');
-        //time=setInterval(() => {
-            //if (!google || !google.maps) return ;
-            //Action('Load_Map');
-
-    //clearInterval(time);
-        //},1000);
-
     }
     componentWillUnmount(){
         SlavesStore.removeChangeListener(this._onChange);
@@ -35,13 +27,14 @@ class mainMap extends React.Component {
             <span>
                 <LeftNav/>
                 <RightNav/>
-  <section
-      className='gMap'>
-
-      <div id='mapDiv' className='mapDiv'></div>
-                                             </section>
-
-                        <Local {...this.state}/>
+                <section
+                    className='gMap'>
+                    <div id='mapDiv' className='mapDiv'></div>
+                </section>
+                <Local {...this.state}/>
+                <Config filter={this.state.filter.year}
+                    config={this.state.config}
+                />
             </span>
         )
     }

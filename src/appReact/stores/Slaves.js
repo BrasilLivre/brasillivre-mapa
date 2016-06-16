@@ -4,11 +4,20 @@ import  _ from 'underscore';
 const CHANGE_EVENT = 'CHANGE_SLAVES';
 const zero = {
     markers:[],
+    markersData:[],
     loadMap:false,
     heatMap:true,
     markerNow:-1,
     showMarkers:true,
-    requests:0,
+    filter:{
+        year:{
+            min:1995,
+            max:2016
+        }
+    },
+    config:{
+        isOpen:false
+    },
     showHeatMap:true,
     center:{  lat : -14.235004, lng : -51.92528 }
 };
@@ -20,40 +29,38 @@ const  _listSlaves=()=>{
         type: 'GET',
         success: function(data) {
             _slavesApp.markers=_slavesApp.markers.concat(data);
-            _slavesApp.requests+=1;
-            SlavesStore.emitChange();
+            _slavesApp.markersData=_slavesApp.markersData.concat(data);
         },
-        error: function(xhr, errmsg, err) {
-        }
-    });
-    $.ajax({
-        url: `/data/1995-2010.json`,
-        type: 'GET',
-        success: function(data) {
-            _slavesApp.markers=_slavesApp.markers.concat(data);
-            _slavesApp.requests+=1;
-            SlavesStore.emitChange();
-        },
-        error: function(xhr, errmsg, err) {
-        }
-    });
-  $.ajax({
-        url: `/data/2011-2014.json`,
-        type: 'GET',
-        success: function(data) {
-            _slavesApp.markers=_slavesApp.markers.concat(data);
-            _slavesApp.requests+=1;
-            SlavesStore.emitChange();
-        },
-        error: function(xhr, errmsg, err) {
-        }
-    });
-
-
+    }).complete(function(){
+        $.ajax({
+            url: `/data/1995-2010.json`,
+            type: 'GET',
+            success: function(data) {
+                _slavesApp.markers=_slavesApp.markers.concat(data);
+                _slavesApp.markersData=_slavesApp.markersData.concat(data);
+            },
+        }).complete(function(){
+            $.ajax({
+                url: `/data/2011-2014.json`,
+                type: 'GET',
+                success: function(data) {
+                    _slavesApp.markers=_slavesApp.markers.concat(data);
+                    _slavesApp.markersData=_slavesApp.markersData.concat(data);
+                    SlavesStore.emitChange();
+                },
+                error: function(xhr, errmsg, err) {
+                }
+            });
+        })
+    })
 }
 const _modal=(isOpen,id=-1)=>{
     _slavesApp.modalIsOpen=isOpen;
     _slavesApp.markerNow=id;
+    SlavesStore.emitChange();
+}
+const _modalConfig=(isOpen)=>{
+    _slavesApp.config.isOpen=isOpen;
     SlavesStore.emitChange();
 }
 const _toogleMarkers=()=>{
@@ -64,7 +71,19 @@ const _toogleHeatmap=()=>{
     _slavesApp.showHeatMap=!_slavesApp.showHeatMap;
     SlavesStore.emitChange();
 }
-
+const _filterYear=(min,max)=>{
+    _slavesApp.markers=_slavesApp.markersData;
+    _slavesApp.filter.year.max=max;
+    _slavesApp.filter.year.min=min;
+    _slavesApp.markers= _slavesApp.markers.filter((item)=>{
+        return item['Ano']<=max && item['Ano']>=min;
+    });
+    SlavesStore.emitChange();
+}
+const _updatedMarkers=()=>{
+    _slavesApp.markersUpdate=false;
+    //SlavesStore.emitChange();
+}
 const _loadMap=()=>{
     _slavesApp.loadMap=true;
     SlavesStore.emitChange();
@@ -99,13 +118,24 @@ SlavesStore.dispatchToken = AppDispatcher.register(function(payload) {
 case 'OpenModal_Map':
   _modal(true,action.data.marker);
 break;
+  case 'CloseModal_Config':
+    _modalConfig(false);
+  break;
+case 'OpenModal_Config':
+  _modalConfig(true);
+break;
 case 'ToogleMarkers_Map':
   _toogleMarkers();
 break;
 case 'ToogleHeatMap_Map':
   _toogleHeatmap();
 break;
-
+case 'FilterYear_Map':
+  _filterYear(action.data.min,action.data.max);
+break;
+case 'UpdatedMarkers_Map':
+  _updatedMarkers();
+break;
     default:
       // do nothing
     }
