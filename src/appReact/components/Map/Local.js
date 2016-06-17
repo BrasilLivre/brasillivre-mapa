@@ -83,7 +83,8 @@ const _addMarkers=(markers)=>{
     markerCluster = new MarkerClusterer(gMap, arrayMarkers,
                                         {
         imagePath:'img/cluster/m',
-        minimumClusterSize:30
+        minimumClusterSize:30,
+        zoomShowMarkers:8,
     });
     markersLoad=true;
 }

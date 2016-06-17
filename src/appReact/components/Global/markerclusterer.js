@@ -102,6 +102,12 @@ function MarkerClusterer(map, opt_markers, opt_options) {
    * @type {number}
    * @private
    */
+  this.zoomShowMarkers_ = options['zoomShowMarkers'] || 8;
+
+  /**
+   * @type {number}
+   * @private
+   */
   this.gridSize_ = options['gridSize'] || 60;
 
   /**
@@ -584,6 +590,15 @@ MarkerClusterer.prototype.getGridSize = function() {
   return this.gridSize_;
 };
 
+/**
+ * Retorna o zoom mínimo para que todos os marcadores tornem-se visiveis.
+ *
+ * @return {number} The zoomShowMarkers.
+ */
+MarkerClusterer.prototype.getZoomShowMarkers = function() {
+  return this.zoomShowMarkers_;
+};
+
 
 /**
  * Sets the size of the grid.
@@ -815,6 +830,7 @@ function Cluster(markerClusterer) {
   this.markerClusterer_ = markerClusterer;
   this.map_ = markerClusterer.getMap();
   this.gridSize_ = markerClusterer.getGridSize();
+  this.zoomShowMarkers_ = markerClusterer.getZoomShowMarkers();
   this.minClusterSize_ = markerClusterer.getMinClusterSize();
   this.averageCenter_ = markerClusterer.isAverageCenter();
   this.center_ = null;
@@ -876,7 +892,11 @@ Cluster.prototype.addMarker = function(marker) {
     // Min cluster size not reached so show the marker.
     marker.setMap(this.map_);
   }
-
+  //Mostra os marcadores se um dado valor de zoom for alcançado
+  if(this.map_.getZoom()>this.markerClusterer_.getZoomShowMarkers()){
+      marker.setMap(this.map_);
+      return true;
+  }
   if (len == this.minClusterSize_) {
     // Hide the markers that were showing.
     for (var i = 0; i < len; i++) {
@@ -1289,6 +1309,9 @@ MarkerClusterer.prototype['getCalculator'] =
     MarkerClusterer.prototype.getCalculator;
 MarkerClusterer.prototype['getGridSize'] =
     MarkerClusterer.prototype.getGridSize;
+MarkerClusterer.prototype['getZoomShowMarkers'] =
+    MarkerClusterer.prototype.getZoomShowMarkers;
+
 MarkerClusterer.prototype['getExtendedBounds'] =
     MarkerClusterer.prototype.getExtendedBounds;
 MarkerClusterer.prototype['getMap'] = MarkerClusterer.prototype.getMap;
