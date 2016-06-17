@@ -22,14 +22,12 @@ let allWorkers=0;
 const _initMap=(center)=>{
     const mapOptions =  {
         zoom: 2,
-        //center: center,
         mapTypeIds: ['mapStyle']
     };
     clearInterval(time);
     gMap = new google.maps.Map(document.getElementById('mapDiv'),mapOptions);
     bounds = new google.maps.LatLngBounds();
     Action('Load','Map');
-
     _stylizeMap();
 }
 const _stylizeMap=()=>{
@@ -81,11 +79,9 @@ const _addMarkers=(markers)=>{
             gMap.setCenter(marker.getPosition());
         });
         arrayMarkers.push(marker);
-
         bounds.extend(marker.getPosition());
-    gMap.fitBounds(bounds);
+        gMap.fitBounds(bounds);
     });
-
     markerCluster = new MarkerClusterer(gMap, arrayMarkers,
                                         {
         imagePath:'img/cluster/m',
@@ -98,8 +94,7 @@ const _deleteMarkers=()=>{
     arrayMarkers.map((item)=>{
         item.setMap(null);
     });
-
-        markerCluster.clearMarkers();
+    markerCluster.clearMarkers();
 }
 const BoxDetail = (props)=>(
     <span className='col-xs-12'>
@@ -177,22 +172,19 @@ class Local extends React.Component {
         const markersUpdate=nextProps.markers.length!=this.props.markers.length;
         if (heatMapChanged) _toogleHeatMap(nextProps.showHeatMap);
         if (markersChanged) _toogleMarkers(nextProps.showMarkers);
-
-             if(!markersLoad && nextProps.loadMap){
-                 markersLoad=true;
-                 _addMarkers(nextProps.markers);
-            if(heatMap.exist) _toogleHeatMap(false);
-            _heatMap(nextProps.markers);
-return true;
-        }
-
-        if(markersUpdate && nextProps.loadMap){
-   _deleteMarkers();
+        if(!markersLoad && nextProps.loadMap){
+            markersLoad=true;
             _addMarkers(nextProps.markers);
             if(heatMap.exist) _toogleHeatMap(false);
             _heatMap(nextProps.markers);
-
-             }
+            return true;
+        }
+        if(markersUpdate && nextProps.loadMap){
+            _deleteMarkers();
+            _addMarkers(nextProps.markers);
+            if(heatMap.exist) _toogleHeatMap(false);
+            _heatMap(nextProps.markers);
+        }
     }
     componentDidUpdate(){
         if (!this.props.loadMap) return true;
@@ -203,16 +195,8 @@ return true;
     }
     render(){
         if (!this.props.loadMap ) return <span/>
-        //const markers = this.props.markers.filter((marker)=>'geometry' in marker);
         const markers = this.props.markers;
-     //if(!markersLoad){
-            //_addMarkers(markers);
-            //if(heatMap.exist) _toogleHeatMap(false);
-            //_heatMap(markers);
-//markersLoad=true;
-        //}
-
-             if (this.props.markerNow==-1) return (<span/>);
+        if (this.props.markerNow==-1) return (<span/>);
         return (
             <section>
                 <InfoWindow marker={markers[this.props.markerNow]}

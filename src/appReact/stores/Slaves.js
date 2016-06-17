@@ -23,7 +23,6 @@ const zero = {
         isOpen:false
     },
     showHeatMap:true,
-    center:{  lat : -14.235004, lng : -51.92528 }
 };
 let _slavesApp = JSON.parse(JSON.stringify(zero));
 const _cleanStore =()=>_slavesApp = JSON.parse(JSON.stringify(zero));
