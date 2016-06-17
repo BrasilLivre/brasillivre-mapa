@@ -1,5 +1,6 @@
 import React from 'react';
 import mapStyle from './../Global/mapStyle.js';
+import MarkerClusterer from './../Global/markerclusterer.js';
 //import {getPoints} from './getPoints.js';
 import Suitcase from 'react-icons/lib/fa/suitcase';
 import Card from 'react-icons/lib/fa/credit-card';
@@ -10,6 +11,7 @@ var heatMap={
     exist:false,
     map:null
 };
+var markerCluster;
 let gMap;
 let time;
 let markersLoad=false;
@@ -68,6 +70,7 @@ const _addMarkers=(markers)=>{
         let marker = new google.maps.Marker({
             position:item.geometry.location,
             icon:'img/markers/slavery.png',
+            trabalhadores:item['trabalhadores']
         });
         marker.setMap(gMap);
         marker.addListener('click', function() {
@@ -76,12 +79,20 @@ const _addMarkers=(markers)=>{
         });
         arrayMarkers.push(marker);
     });
+
+    markerCluster = new MarkerClusterer(gMap, arrayMarkers,
+                                        {
+        imagePath:'img/cluster/m',
+        minimumClusterSize:30
+    });
     markersLoad=true;
 }
 const _deleteMarkers=()=>{
     arrayMarkers.map((item)=>{
         item.setMap(null);
-    })
+    });
+
+        markerCluster.clearMarkers();
 }
 const BoxDetail = (props)=>(
     <span className='col-xs-12'>
