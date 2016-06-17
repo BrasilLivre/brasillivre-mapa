@@ -1,6 +1,22 @@
 import AppDispatcher from '../flux/AppDispatcher';
 import  {EventEmitter} from 'events';
 import  _ from 'underscore';
+const workerString =[document.querySelector('[type="javascript/worker"]').textContent]
+var workerBlob = new Blob(workerString, {
+    type: 'text/javascript'
+});
+var workerUrl = URL.createObjectURL(workerBlob);
+var worker = new Worker(workerUrl);
+worker.addEventListener('message', function (msg) {
+    if (msg.data.type == 'answerFilter') {
+        _slavesApp.markers=msg.data.result;
+        SlavesStore.emitChange();
+        workerReduce(msg.data.result);
+    }else if(msg.data.type=='answerReduce'){
+       _slavesApp.slavesFree=msg.data.result;
+        SlavesStore.emitChange();
+    }
+});
 const CHANGE_EVENT = 'CHANGE_SLAVES';
 const zero = {
     markers:[],
@@ -26,6 +42,14 @@ const zero = {
 };
 let _slavesApp = JSON.parse(JSON.stringify(zero));
 const _cleanStore =()=>_slavesApp = JSON.parse(JSON.stringify(zero));
+const workerReduce=(markers)=>{
+    var msgData = {
+            type: 'reduce',
+            markers: markers,
+        };
+        document.body.className='';
+        worker.postMessage(msgData);
+}
 const  _listSlaves=()=>{
     $.ajax({
         url: `/data/2014-2016.json`,
@@ -48,9 +72,7 @@ const  _listSlaves=()=>{
                 type: 'GET',
                 success: function(data) {
                     _slavesApp.markers=_slavesApp.markers.concat(data);
-                    _slavesApp.slavesFree=_slavesApp.markers.reduce((p,c)=>(
-                        {'trabalhadores': p['trabalhadores']+c['trabalhadores']}
-                    ))['trabalhadores'];
+                    workerReduce(_slavesApp.markers);
                     _slavesApp.markersData=_slavesApp.markersData.concat(data);
                     SlavesStore.emitChange();
                 },
@@ -85,13 +107,13 @@ const _filterYear=(min,max)=>{
     _slavesApp.markers=_slavesApp.markersData;
     _slavesApp.filter.year.max=max;
     _slavesApp.filter.year.min=min;
-    _slavesApp.markers= _slavesApp.markers.filter((item)=>{
-        return item['Ano']<=max && item['Ano']>=min;
-    });
-    _slavesApp.slavesFree=_slavesApp.markers.reduce((p,c)=>(
-        {'trabalhadores': p['trabalhadores']+c['trabalhadores']}
-    ))['trabalhadores'];
-    SlavesStore.emitChange();
+    var msg = {
+        type: 'filter',
+        markers: _slavesApp.markers,
+        max:max,
+        min:min
+    };
+    worker.postMessage(msg);
 }
 const _updatedMarkers=()=>{
     _slavesApp.markersUpdate=false;

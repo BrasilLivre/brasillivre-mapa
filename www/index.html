@@ -25,14 +25,35 @@
     </head>
     <body class='loading' >
         <div class='divLoading'>
-        <img src='img/loading.png' class='imgLoading centrar'/>
-        <h3 class='textWait centrar'>
-        aguarde..
-        </h3>
+            <img src='img/loading.png' class='imgLoading centrar'/>
+            <h3 class='textWait centrar'>
+                aguarde..
+            </h3>
         </div>
         <div id='reactDiv' class='reactDiv'>
         </div>
-
+        <!--Os script abaixo  constroi o worker a ser utilizado para filtrar os marcadores -->
+        <script type="javascript/worker">
+self.addEventListener('message', function(msg) {
+    if (msg.data.type == 'filter') {
+        var filtred= msg.data.markers.filter(function (item) {
+            return item['Ano'] <= msg.data.max && item['Ano'] >= msg.data.min;
+        });
+        self.postMessage({
+            type: 'answerFilter',
+            result:filtred
+        });
+    }else if(msg.data.type=='reduce'){
+        var sum = msg.data.markers.reduce(function (p, c) {
+            return { 'trabalhadores': p['trabalhadores'] + c['trabalhadores']  };
+        })['trabalhadores']; 
+        self.postMessage({
+            type: 'answerReduce',
+            result:sum
+        });
+    }
+})
+        </script>
         <script src="bower_components/jquery/dist/jquery.min.js" ></script>
         <script src="bower_components/heatmap.js-2.0/build/heatmap.js" ></script>
         <!--<script src="bower_components/heatmap.js-2.0/build/gmap.js" ></script>-->
