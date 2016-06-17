@@ -46,7 +46,6 @@ class mainMap extends React.Component {
                 />
                 <About about={this.state.about}
                 />
-
             </span>
         )
     }

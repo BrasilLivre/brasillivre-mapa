@@ -1,7 +1,6 @@
 import React from 'react';
 import mapStyle from './../Global/mapStyle.js';
 import MarkerClusterer from './../Global/markerclusterer.js';
-//import {getPoints} from './getPoints.js';
 import Suitcase from 'react-icons/lib/fa/suitcase';
 import Card from 'react-icons/lib/fa/credit-card';
 import {Action} from './../../actions/Action.js';
