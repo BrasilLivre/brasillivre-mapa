@@ -11,6 +11,7 @@ var heatMap={
     exist:false,
     map:null
 };
+var bounds;
 var markerCluster;
 let gMap;
 let time;
@@ -20,13 +21,15 @@ let arrayMarkers=[];
 let allWorkers=0;
 const _initMap=(center)=>{
     const mapOptions =  {
-        zoom: 5,
-        center: center,
+        zoom: 2,
+        //center: center,
         mapTypeIds: ['mapStyle']
     };
     clearInterval(time);
     gMap = new google.maps.Map(document.getElementById('mapDiv'),mapOptions);
+    bounds = new google.maps.LatLngBounds();
     Action('Load','Map');
+
     _stylizeMap();
 }
 const _stylizeMap=()=>{
@@ -78,6 +81,9 @@ const _addMarkers=(markers)=>{
             gMap.setCenter(marker.getPosition());
         });
         arrayMarkers.push(marker);
+
+        bounds.extend(marker.getPosition());
+    gMap.fitBounds(bounds);
     });
 
     markerCluster = new MarkerClusterer(gMap, arrayMarkers,
