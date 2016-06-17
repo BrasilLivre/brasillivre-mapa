@@ -6,6 +6,7 @@ import RightNav from './RightNav.js';
 import {Action} from './../../actions/Action.js';
 import SlavesStore from './../../stores/Slaves.js';
 import Config from './Config.js';
+import About from './About.js';
 const Contador=(props)=>(
  <div className='bottomNav centrarX'>
                     <img src='img/contador.png'/>
@@ -43,6 +44,9 @@ class mainMap extends React.Component {
                 <Config filter={this.state.filter.year}
                     config={this.state.config}
                 />
+                <About about={this.state.about}
+                />
+
             </span>
         )
     }

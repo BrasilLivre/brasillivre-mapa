@@ -16,6 +16,9 @@ const zero = {
             max:2016
         }
     },
+    about:{
+        isOpen:false
+    },
     config:{
         isOpen:false
     },
@@ -65,6 +68,10 @@ const _modal=(isOpen,id=-1)=>{
 }
 const _modalConfig=(isOpen)=>{
     _slavesApp.config.isOpen=isOpen;
+    SlavesStore.emitChange();
+}
+const _modalAbout=(isOpen)=>{
+    _slavesApp.about.isOpen=isOpen;
     SlavesStore.emitChange();
 }
 const _toogleMarkers=()=>{
@@ -130,6 +137,12 @@ break;
   break;
 case 'OpenModal_Config':
   _modalConfig(true);
+break;
+  case 'CloseModal_About':
+    _modalAbout(false);
+  break;
+case 'OpenModal_About':
+  _modalAbout(true);
 break;
 case 'ToogleMarkers_Map':
   _toogleMarkers();
